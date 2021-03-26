@@ -55,14 +55,41 @@ html {
   }
   */
 
-  .khuller-image {
-    max-width: 120px;
-    border-radius: 5px;
-    height: auto;
-    margin-top: 8px;
-    margin-bottom: -2px;
+  .alumni-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
   }
-  
+
+  .alumni-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: column;
+    border: 1px lightgray solid;
+    text-align: center;
+  }
+
+  .profile-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;    
+    border-radius: 5px;
+  }
+
+  .alumni-name {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
   .wrapper {
     margin: 0 auto;
     width: 800px;
