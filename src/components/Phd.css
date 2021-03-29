@@ -1,193 +1,223 @@
 html {
-    font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .top-nav navbar navbar-expand-lg navbar-dark bg-dark {
-    background-color: #4E2A84 !important;
+  background-color: #4E2A84 !important;
 }
 
 .navbar,
 .navbar-default {
-    background-color: #4E2A84 !important;
+  background-color: #4E2A84 !important;
 }
 
 .top-nav {
-    background-color: #4E2A84 !important;
-    position: relative; /* change to fixed? */
-    width: 100%;
-    margin: 0 auto;
-    color: white;
-  }
+  background-color: #4E2A84 !important;
+  position: relative; /* change to fixed? */
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+}
 
 .nav-link{
-    color: white !important;
+  color: white !important;
 }
 
 
-  /*
-  nav.top-nav ul {
-    list-style: none;
-    padding: 2px;
-    text-align: left;
-    margin-left: -10px; 
-  }
+/*
+nav.top-nav ul {
+  list-style: none;
+  padding: 2px;
+  text-align: left;
+  margin-left: -10px; 
+}
 
-  nav.top-nav li {
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 20px;
-    margin: 15px;
-    display: inline-block;
-    padding: 0px;
-    user-select: none;
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  nav.top-nav li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav.top-nav li:hover {
-    text-decoration: underline;
-  }
-  */
+nav.top-nav li {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 20px;
+  margin: 15px;
+  display: inline-block;
+  padding: 0px;
+  user-select: none;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
-  .khuller-image {
-    max-width: 120px;
-    border-radius: 5px;
-    height: auto;
-    margin-top: 8px;
-    margin-bottom: -2px;
-  }
-  
-  .wrapper {
-    margin: 0 auto;
-    width: 800px;
-    font-family: 'Playfair Display', serif;
-  }
+nav.top-nav li a {
+  text-decoration: none;
+  color: white;
+}
 
-  .title-wrapperNO {
-    margin: 0 auto;
-    width: 400px;
-    font-family: 'Playfair Display', serif;
-  }
+nav.top-nav li:hover {
+  text-decoration: underline;
+}
+*/
 
-  .name {
-    color: black;
-    margin-right: 0px;
-    font-size: 36px;
-    margin-top: -128px;
-    margin-left: 210px;
-    margin-bottom: 15px;
-  }
+.phd-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
 
-  .position1 {
-    color: black;
-    font-size: 18px;
-    margin-top: -14px;
-    margin-right: -50px;
-    margin-left: 210px;
-    margin-bottom: 4px;
-  }
+.phd-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 40px;
+  flex-direction: column;
+  border: 1px lightgray solid;
+  text-align: center;
+}
 
-  .position2 {
-    color: black;
-    font-size: 18px;
-    margin-top: -5px;
-    margin-left: 210px;
-    margin-bottom: 5px;
-  }
+.profile-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;    
+  border-radius: 5px;
+}
 
-  .school {
-    color: black;
-    font-size: 22px;
-    margin-top: -4px;
-    margin-right: 235px;
-    margin-left: 210px;
-    margin-bottom: 10px;
-  }
+.phd-name {
+  font-size: 30px;
+  font-weight: bold;
+}
 
-  .khuller-image {
-    display: block;
-    margin-left: auto;
-    margin-right: 600px;
-    width: 50%;
-    margin-top: 20px;
-  }
+.wrapper {
+  margin: 0 auto;
+  width: 800px;
+  font-family: 'Playfair Display', serif;
+}
 
-  .bio-title {
-    color: black;
-    font-size: 34px;
-    margin-top: 100px;
-    margin-bottom: 6px;
-  }
+.title-wrapperNO {
+  margin: 0 auto;
+  width: 400px;
+  font-family: 'Playfair Display', serif;
+}
 
-  .bio-text {
-    color: black;
-    font-size: 20px;
-    margin-top: -5px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+.name {
+  color: black;
+  margin-right: 0px;
+  font-size: 36px;
+  margin-top: -128px;
+  margin-left: 210px;
+  margin-bottom: 15px;
+}
 
-  .publication-title {
-    color: black;
-    font-size: 34px;
-    margin-top: 110px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  .year {
-    color: black;
-    font-size: 24px;
-    margin-top: -2px;
-    text-align: justify;
-    margin-bottom: 6px;
-    text-justify: inter-word;
-  }
-  .paper {
-    color: black;
-    font-size: 18px;
-    margin-top: -2px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
+.position1 {
+  color: black;
+  font-size: 18px;
+  margin-top: -14px;
+  margin-right: -50px;
+  margin-left: 210px;
+  margin-bottom: 4px;
+}
+
+.position2 {
+  color: black;
+  font-size: 18px;
+  margin-top: -5px;
+  margin-left: 210px;
+  margin-bottom: 5px;
+}
+
+.school {
+  color: black;
+  font-size: 22px;
+  margin-top: -4px;
+  margin-right: 235px;
+  margin-left: 210px;
+  margin-bottom: 10px;
+}
+
+.khuller-image {
+  display: block;
+  margin-left: auto;
+  margin-right: 600px;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.bio-title {
+  color: black;
+  font-size: 34px;
+  margin-top: 100px;
+  margin-bottom: 6px;
+  margin: 0 auto;
+  width: 900px;
+  font-family: 'Playfair Display', serif;
+}
+
+.bio-text {
+  color: black;
+  font-size: 20px;
+  margin-top: -5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.publication-title {
+  color: black;
+  font-size: 34px;
+  margin-top: 110px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.year {
+  color: black;
+  font-size: 24px;
+  margin-top: -2px;
+  text-align: justify;
+  margin-bottom: 6px;
+  text-justify: inter-word;
+}
+.paper {
+  color: black;
+  font-size: 18px;
+  margin-top: -2px;
+  text-align: justify;
+  text-justify: inter-word;
+}
 
 /* Dropdown Button */
 .dropbtn {
-  background-color:  #4E2A84;
-  color: white;
-  padding: 4px;
-  font-size: 20px;
-  border: none;
-  font-family: 'Playfair Display', serif;
+background-color:  #4E2A84;
+color: white;
+padding: 4px;
+font-size: 20px;
+border: none;
+font-family: 'Playfair Display', serif;
 }
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-  position: relative;
-  display: inline-block;
+position: relative;
+display: inline-block;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:  #4E2A84;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+display: none;
+position: absolute;
+background-color:  #4E2A84;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
 }
 
 /* Change to underline dropdown links on hover */
@@ -200,25 +230,25 @@ html {
 .dropdown:hover .dropbtn {background-color:  #4E2A84;}
 
 .inline {
-  display:inline-block;
-  margin-right:0px;
+display:inline-block;
+margin-right:0px;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color:  #4E2A84;
-  padding: 5px;
+display: grid;
+grid-template-columns: auto auto;
+background-color:  #4E2A84;
+padding: 5px;
 }
 
 .grid-item {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 16px;
-  text-align: left;
+background-color: white;
+border: 1px solid rgba(0, 0, 0, 0.8);
+padding: 20px;
+font-size: 16px;
+text-align: left;
 }
 
 #grid-title{
-  font-weight: bolder;
+font-weight: bolder;
 }

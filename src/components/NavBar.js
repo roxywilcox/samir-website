@@ -20,10 +20,17 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
+          <Nav.Link href="/home">Home</Nav.Link>
+          <Nav.Link href="/teaching">Teaching</Nav.Link>
             <NavDropdown title="Students" id="basic-nav-dropdown">
               <NavDropdown.Item href="/alumni">Alumni</NavDropdown.Item>
-              <NavDropdown.Item href="/bio">PhD Students</NavDropdown.Item>
+              <NavDropdown.Item href="/phd">PhD Students</NavDropdown.Item>
+              <NavDropdown.Item href="/undergrad">Undergraduate Students</NavDropdown.Item>
             </NavDropdown>
+            <Nav.Link href="/profEngagements">Professional Engagements</Nav.Link>
+            <Nav.Link href="/publications">Publications</Nav.Link>
+            <Nav.Link href="/talks">Talks</Nav.Link>
+            <Nav.Link href="/bio">Bio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

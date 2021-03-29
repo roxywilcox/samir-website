@@ -63,10 +63,11 @@ html {
     margin-bottom: -2px;
   }
   
-  .wrapper {
+  .event-wrapper {
     margin: 0 auto;
     width: 800px;
     font-family: 'Playfair Display', serif;
+    font-size: 24px;
   }
 
   .title-wrapperNO {
