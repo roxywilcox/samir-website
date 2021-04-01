@@ -54,6 +54,20 @@ html {
     text-decoration: underline;
   }
   */
+  .pub-wrapper {
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+  }
+
+  .bio-text {
+    color: black;
+    font-size: 20px;
+    margin-top: -5px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
 
   .khuller-image {
     max-width: 120px;

@@ -9,6 +9,7 @@ import { alumniData } from "./alumniData";
 import "./Alumni.css";
 
 function Alumni() {
+  console.log("this is the image", alumniData[0].img.default);
   return (
     <div>
       <div className="bio-title">Alumni</div>
@@ -16,7 +17,7 @@ function Alumni() {
         {alumniData.map((alumni) => (
           <div className="alumni-item-container">
             <a href={alumni.website}>
-              <img src={Sheng} className="profile-img" alt="prof-pic" />
+              <img src={alumni.img} className="profile-img" alt="prof-pic" />
             </a>
             <div className="alumni-name">{alumni.name}</div>
             <div className="alumni-paper">

@@ -37,7 +37,10 @@ function ProfEngagements() {
       <div className="alumni-container">
         <div className="event-wrapper">
         {awardData.map((award) => (
-          <div>{award}</div>
+          <div>
+            <div>{award}</div>
+            <br/>
+            </div>
         ))}
         </div>
       </div>
