@@ -6,7 +6,7 @@ export const alumniData =
     "thesis": "On Scheduling and Communication Issues in Data Centers",
     "graduation_date": "Dec. 2020",
     "img": require("../assets/sheng.jpg"),
-    "website": "",
+    "website": "https://www.cs.umd.edu/~styang/",
   },
   {
     "name": "Ioana Bercea",
@@ -14,7 +14,7 @@ export const alumniData =
     "thesis": "Approximation Algorithms for Touring and Clustering Problems",
     "graduation_date": "July 2018",
     "img": require("../assets/ioana.jpg"),
-    "website": "",
+    "website": "https://ioanabercea.github.io/webpage/",
   },
   {
     "name": "Manish Purohit",
@@ -38,6 +38,7 @@ export const alumniData =
     "thesis": "Algorithmic Approaches to Reducing Resource Costs in Data Centers",
     "graduation_date": "Dec 2013",
     "img": require("../assets/koyel.png"),
+    "website": "https://www.linkedin.com/in/koyel-mukherjee-7b47024/?originalSubdomain=in",
   },
   {
     "name": "Jessica Chang",
@@ -45,6 +46,7 @@ export const alumniData =
     "thesis": "Energy-Aware Batch Scheduling",
     "graduation_date": "Aug 2013",
     "img": "../assets/uw.png",
+    "website": "https://www.linkedin.com/in/jessica-chang-3304ba80/",
   },
   {
     "name": "Saeed Alaei",
@@ -52,6 +54,7 @@ export const alumniData =
     "thesis": "Mechanism design with general utilities",
     "graduation_date": "Aug 2012",
     "img": "../assets/saeed.jpeg",
+    "website": "http://www.cs.cornell.edu/~saeed/",
   },
   {
     "name": "Barna Saha",
@@ -67,6 +70,8 @@ export const alumniData =
     "bio":"IIIS, Tsinghua University.",
     "thesis": "Decision making under Uncertainty",
     "graduation_date": "Aug 2011",
+    "img": "",
+    "website": "http://people.iiis.tsinghua.edu.cn/~jianli/",
 
   },
   {
@@ -83,6 +88,7 @@ export const alumniData =
     "thesis": "Algorithms for data placement, reconfiguration and monitoring in storage networks",
     "graduation_date": "Aug 2007",
     "img": "../assets/google.webp",
+    "website": "https://www.cs.umd.edu/community/alumnus/srinivas-kashyap",
   },
   {
     "name": "Julian Mestre",
@@ -113,6 +119,7 @@ export const alumniData =
     "thesis": "A preprocessor for shotgun assembly of large genomes",
     "graduation_date": "2003",
     "img": "../assets/maryland.jpg",
+    "website": "https://www.linkedin.com/in/michael-roberts-81594a56/",
   },
   {
     "name": "Rajiv Gandhi",
@@ -128,6 +135,8 @@ export const alumniData =
     "thesis": "Approximation Algorithms for Facility Location Problems",
     "graduation_date": "Feb 1999",
     "img": "../assets/iona.jpg",
+    "website": "https://wiki.cs.umd.edu/theory/view/Alumni",
+
   },
   {
     "name": "Randeep Bhatia",
@@ -135,5 +144,6 @@ export const alumniData =
     "thesis": "Approximation Algorithms for Scheduling Problems",
     "graduation_date": "Aug 1998",
     "img": "../assets/nokia.png",
+    "website": "https://www.linkedin.com/in/randeep-bhatia-5939951/",
   },
 ];

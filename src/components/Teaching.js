@@ -4,7 +4,8 @@ function Teaching() {
   return (
     <div className="teaching-container">
       <div className="wrapper">
-        <div className="bio-title">Teaching</div>
+        <br />
+        <br />
         <br />
 
         <div className="grid-container">

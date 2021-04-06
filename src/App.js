@@ -51,6 +51,9 @@ function App() {
           <Route path="/bio">
             <Bio />
           </Route>
+          <Route path="/contact">
+            <Bio /> 
+          </Route>
         </Switch>
     </Router>
   );

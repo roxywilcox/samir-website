@@ -15,6 +15,8 @@ function Phd() {
               <img src={Sheng} className="profile-img" alt="prof-pic" />
             </a>
             <br />
+            <br/>
+            <br/>
             <div className="phd-name">{phd.name}</div>
           </div>
         ))}

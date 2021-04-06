@@ -4,9 +4,8 @@ import { awardData } from "./awardData";
 function ProfEngagements() {
   return (
     <div>
-      <div className="bio-title">Workshops</div>
       <div className="event-wrapper">
-        <br />
+        <div className="bio-title">Workshops</div>
         <a href="https://www.cs.umd.edu/users/samir/stoc2018/">
           TCS: Looking into the Future (Workshop to celebrate Vijay Vazirani's
           60th birthday as part of ACM STOC 2018).
@@ -22,9 +21,9 @@ function ProfEngagements() {
           Data Center Scheduling Workshop in Chicago.
         </a>
       </div>
-      <div className="bio-title">Special Issues</div>
+
       <div className="event-wrapper">
-        <br />
+        <div className="bio-title">Special Issues</div>
         <a href="http://www.cs.umd.edu/users/samir/ToCMotwani.htm">
           Call for Papers: &nbsp;
         </a>
@@ -33,15 +32,16 @@ function ProfEngagements() {
           A Special Issue
         </a>
       </div>
-      <div className="bio-title">Awards</div>
+
       <div className="alumni-container">
         <div className="event-wrapper">
-        {awardData.map((award) => (
-          <div>
-            <div>{award}</div>
-            <br/>
+          <div className="bio-title">Awards</div>
+          {awardData.map((award) => (
+            <div>
+              <div>{award}</div>
+              <br />
             </div>
-        ))}
+          ))}
         </div>
       </div>
     </div>

@@ -76,6 +76,9 @@ nav.top-nav li:hover {
   flex-direction: column;
   border: 1px lightgray solid;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  color: black;
 }
 
 .profile-img {
@@ -87,7 +90,6 @@ nav.top-nav li:hover {
 
 .phd-name {
   font-size: 30px;
-  font-weight: bold;
 }
 
 .wrapper {

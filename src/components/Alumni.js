@@ -12,13 +12,13 @@ function Alumni() {
   console.log("this is the image", alumniData[0].img.default);
   return (
     <div>
-      <div className="bio-title">Alumni</div>
       <div className="alumni-container">
         {alumniData.map((alumni) => (
           <div className="alumni-item-container">
             <a href={alumni.website}>
-              <img src={alumni.img} className="profile-img" alt="prof-pic" />
+              <img src={Sheng} className="profile-img" alt="prof-pic" />
             </a>
+          
             <div className="alumni-name">{alumni.name}</div>
             <div className="alumni-paper">
               <i>{alumni.thesis}</i>

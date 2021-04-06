@@ -4,9 +4,11 @@ import { publications } from "./data/publication_data";
 function Publications() {
   return (
     <div>
-      <div className="bio-title">Publications</div>
-      <br />
       <div class="publications-container">
+        <div className="title-wrapper">
+          <div className="bio-title">Publications</div>
+        </div>
+        <br />
         {publications.map((pub) => (
           <div>
             <div className="pub-wrapper">

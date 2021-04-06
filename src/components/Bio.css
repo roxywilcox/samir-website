@@ -55,6 +55,10 @@ html {
   }
   */
 
+  .samir-bio {
+    max-width: 800px;
+  }
+
   .khuller-image {
     max-width: 120px;
     border-radius: 5px;

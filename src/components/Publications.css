@@ -54,11 +54,20 @@ html {
     text-decoration: underline;
   }
   */
+
+  a:link {
+    color: black;
+  }
+  a:hover {
+    color: red;
+  }
+
   .pub-wrapper {
     margin: 0 auto;
     width: 800px;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
+    color: black !important;
   }
 
   .bio-text {
@@ -84,7 +93,7 @@ html {
   }
 
   .title-wrapperNO {
-    margin: 0 auto;
+    margin: 800px;
     width: 400px;
     font-family: 'Playfair Display', serif;
   }
@@ -130,6 +139,11 @@ html {
     margin-right: 600px;
     width: 50%;
     margin-top: 20px;
+  }
+
+  .title-wrapper {
+    width: 800px;
+    margin: 0 auto;
   }
 
   .bio-title {

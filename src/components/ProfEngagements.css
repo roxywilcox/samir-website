@@ -55,6 +55,14 @@ html {
   }
   */
 
+  .link {
+    color: black !important;
+  }
+
+  a:link {
+    color: black;
+  }
+
   .khuller-image {
     max-width: 120px;
     border-radius: 5px;
@@ -68,6 +76,7 @@ html {
     width: 800px;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
+    color: black !important;
   }
 
   .title-wrapperNO {

@@ -1,11 +1,17 @@
 import "./Bio.css";
+import Samir from "../assets/samir-bio.jpg";
 
 function Bio() {
   return (
     <div className="wrapper">
-      <div className="bio-title">Bio</div>
+
+      <br />
+      <br />
+      <br />
+      <img className="samir-bio" src={Samir} alt="samir"></img>
       <br />
       <div className="bio-text">
+      <br />
         Samir Khuller received his M.S and Ph.D from Cornell University in 1989
         and 1990, respectively, under the supervision of Vijay Vazirani. He
         spent two years as a Research Associate at the University of Maryland,

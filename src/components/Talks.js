@@ -1,11 +1,23 @@
 import "./Talks.css";
-import { phdData } from "./phdData";
-import Sheng from "../assets/sheng.jpg";
+import { talksData } from "./data/talks_data";
 
 function Talks() {
   return (
     <div>
-      hi
+      <div className="title-wrapper">
+        <div className="bio-title">Talks</div>
+        <br />
+        {talksData.map((talk) => (
+          <div className="pub-wrapper">
+            <a href={talk.slides}>
+              <div className="talk-title">{talk.title}</div>
+            </a>
+
+            <div className="talk-conference">{talk.conference}</div>
+            <br />
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
