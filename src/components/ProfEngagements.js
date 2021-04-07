@@ -12,7 +12,7 @@ function ProfEngagements() {
       <div className="events-container">
       <div className="container">
           
-            <img className="profile-img" src={Motwani} alt="Motwani"></img>
+            <img className="motwani-img" src={Motwani} alt="Motwani"></img>
             <a
               className="event-link"
               href="http://www.cs.umd.edu/users/samir/ToCMotwani.htm"
@@ -36,7 +36,7 @@ function ProfEngagements() {
               className="event-link"
               href="https://www.cs.umd.edu/users/samir/stoc2018/"
               >
-              <img className="profile-img" src={Vjay} alt="Vjay"></img>
+              <img className="workshop-img" src={Vjay} alt="Vjay"></img>
               <div>TCS: Looking into the Future </div>
             </a>
           </div>
@@ -46,7 +46,7 @@ function ProfEngagements() {
             <div>
               <a className="event-link" href="https://www.cs.umd.edu/fnd2018">
                 <img
-                  className="profile-img"
+                  className="workshop-img"
                   src={Maryland}
                   alt="Maryland"
                 ></img>
@@ -62,7 +62,7 @@ function ProfEngagements() {
               className="event-link"
               href="https://www.cs.umd.edu/~samir/DCscheduling18/"
             >
-              <img className="profile-img" src={Logo} alt="Logo"></img>
+              <img className="workshop-img" src={Logo} alt="Logo"></img>
               <div>Data Center Scheduling Workshop</div>
             </a>
           </div>

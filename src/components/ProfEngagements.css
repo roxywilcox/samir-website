@@ -22,14 +22,6 @@
 */
 
 
-.profile-img {
-  width: 150px;
-  height: 200px;
-  object-fit: cover;    
-  border-radius: 5px;
-}
-
-
 .motwani-img {
   border-radius: 10px;
   margin: 10px;
