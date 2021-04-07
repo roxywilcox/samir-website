@@ -23,6 +23,17 @@ html {
     color: white !important;
 }
 
+.course-link {
+  color: black;
+}
+
+.title {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
 
   /*
   nav.top-nav ul {

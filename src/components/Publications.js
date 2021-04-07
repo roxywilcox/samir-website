@@ -6,7 +6,7 @@ function Publications() {
     <div>
       <div class="publications-container">
         <div className="title-wrapper">
-          <div className="bio-title">Publications</div>
+          <div className="title">Publications</div>
         </div>
         <br />
         {publications.map((pub) => (
@@ -18,7 +18,7 @@ function Publications() {
             <div className="pub-wrapper">
               {pub.papers.map((title) => (
                 <div>
-                  <a href={title.l}>{title.t}</a>
+                  <a className="pub-link" href={title.l}>{title.t}</a>
                   <br />
                   <br />
                 </div>

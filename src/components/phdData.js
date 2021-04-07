@@ -1,13 +1,16 @@
+import Pattara from "../assets/pattara.jpg";
+import Saba from "../assets/saba.png";
+
 export const phdData =
 [
   {
     "name": "Pattara Sukprasert",
-    "img": "../assets/pattara.jpg",
+    "img": Pattara,
     "website": "https://www.linkedin.com/in/pattara-sukprasert-b909a674/",
   },
   {
     "name": "Saba Ahmadi",
-    "img": "../assets/saba.jpg",
+    "img": Saba,
     "website": "https://sabaahmadi.github.io/",
   },
 ];

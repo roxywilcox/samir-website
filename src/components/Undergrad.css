@@ -23,6 +23,10 @@ html {
   color: white !important;
 }
 
+.undergrad-container {
+  text-align: left;
+}
+
 
 /*
 nav.top-nav ul {

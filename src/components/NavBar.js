@@ -19,7 +19,7 @@ function NavBar() {
       <Navbar expand="lg" variant="dark" className="top-nav">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
+          <Nav className="mr-auto" id="nav-container">
           <Nav.Link href="/home">Home</Nav.Link>
           <Nav.Link href="/teaching">Teaching</Nav.Link>
             <NavDropdown title="Students" id="basic-nav-dropdown">

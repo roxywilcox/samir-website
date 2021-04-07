@@ -24,6 +24,23 @@ html {
 }
 
 
+.title {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.contact {
+  font-family:'Playfair Display', serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+
+}
+
+
   /*
   nav.top-nav ul {
     list-style: none;

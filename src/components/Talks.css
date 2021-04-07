@@ -55,14 +55,27 @@ nav.top-nav li:hover {
 }
 */
 
+
+.title {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
 .talk-title {
   font-family: 'Playfair Display', serif;
   font-size: 24px;
   color: black !important;
+  text-align: center;
 
 }
 
 .talk-conference {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  color: black !important;
+  text-align: center;
 
 }
 
