@@ -13,7 +13,7 @@ function Home() {
             <br/>
         </div>
         <div className="title">
-            Recent Work
+            Featured Work
         </div>
         <div className="contact">
             short blurb here!
