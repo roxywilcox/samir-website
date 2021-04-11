@@ -17,7 +17,7 @@ function ProfEngagements() {
             <br />
             <br />
             <a className="e-link" href={e.link}>
-              <img src={e.img} className="profile-img" alt="prof-pic" />
+              <img src={e.img} className="prof-e-img" alt="prof-pic" />
             </a>
             <br />
             <br/>
