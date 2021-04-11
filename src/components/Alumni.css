@@ -1,59 +1,4 @@
-html {
-    font-family: 'Playfair Display', serif;
-}
 
-.top-nav navbar navbar-expand-lg navbar-dark bg-dark {
-    background-color: #4E2A84 !important;
-}
-
-.navbar,
-.navbar-default {
-    background-color: #4E2A84 !important;
-}
-
-.top-nav {
-    background-color: #4E2A84 !important;
-    position: relative; /* change to fixed? */
-    width: 100%;
-    margin: 0 auto;
-    color: white;
-  }
-
-.nav-link{
-    color: white !important;
-}
-
-
-  /*
-  nav.top-nav ul {
-    list-style: none;
-    padding: 2px;
-    text-align: left;
-    margin-left: -10px; 
-  }
-
-  nav.top-nav li {
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 20px;
-    margin: 15px;
-    display: inline-block;
-    padding: 0px;
-    user-select: none;
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  nav.top-nav li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav.top-nav li:hover {
-    text-decoration: underline;
-  }
-  */
 
   .alumni-container {
     display: flex;
@@ -86,7 +31,7 @@ html {
     font-size: 36px;
     color: black;
     text-align: center;
-    margin-top: 0px;
+    margin-bottom: -5px;
   }
 
   .profile-img {

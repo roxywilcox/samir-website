@@ -15,7 +15,7 @@ import Justin from "../assets/justin.jpg";
 import Yoo from "../assets/yoo.jpg";
 import Michael from "../assets/maryland.jpg";
 import Yoram from "../assets/iona.jpg";
-import Randeep from "../assets/nokia.jpg";
+import Randeep from "../assets/randeep.jpg";
 import Tsinghua from "../assets/tsinghua.jpg";
 
 

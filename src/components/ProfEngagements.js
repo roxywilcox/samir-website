@@ -1,86 +1,33 @@
 import "./ProfEngagements.css";
-import { awardData } from "./awardData";
 import Motwani from "../assets/motwani.jpg";
 import Vjay from "../assets/vjay.jpg";
 import Maryland from "../assets/maryland-logo.png";
 import Logo from "../assets/logo-1.png";
 import { talksData } from "./data/talks_data";
+import {profEngagementsData} from "./ProfEngagementsData";
+
 
 function ProfEngagements() {
   return (
-    <div className="box">
-      <div className="events-container">
-      <div className="container">
-          
-            <img className="motwani-img" src={Motwani} alt="Motwani"></img>
-            <a
-              className="event-link"
-              href="http://www.cs.umd.edu/users/samir/ToCMotwani.htm"
-            >
-              <div>Call for Papers</div>
-            </a>
-            Rajeev Motwani
+    <div>
+      <div className="title">Workshops & Special Issues</div>
+      <div className="phd-container">
+        {profEngagementsData.map((e) => (
+          <div className="phd-item-container">
             <br />
-            <a
-              className="event-link"
-              href="http://theoryofcomputing.org/articles/v008a002/"
-            >
-              A Special Issue
+            <br />
+            <a className="e-link" href={e.link}>
+              <img src={e.img} className="profile-img" alt="prof-pic" />
             </a>
-         
-        </div>
-
-        <div className="container">
-          <div>
-            <a
-              className="event-link"
-              href="https://www.cs.umd.edu/users/samir/stoc2018/"
-              >
-              <img className="workshop-img" src={Vjay} alt="Vjay"></img>
-              <div>TCS: Looking into the Future </div>
+            <br />
+            <br/>
+            <a className="e-link" href={e.link}>
+              <div className="e-name">{e.title}</div>
             </a>
           </div>
-        </div>
-        
-          <div className="container">
-            <div>
-              <a className="event-link" href="https://www.cs.umd.edu/fnd2018">
-                <img
-                  className="workshop-img"
-                  src={Maryland}
-                  alt="Maryland"
-                ></img>
-                <div>Flexible Network Design Workshop 2018</div>
-              </a>
-            </div>
-          </div>
-
-
-        <div className="container">
-          <div>
-            <a
-              className="event-link"
-              href="https://www.cs.umd.edu/~samir/DCscheduling18/"
-            >
-              <img className="workshop-img" src={Logo} alt="Logo"></img>
-              <div>Data Center Scheduling Workshop</div>
-            </a>
-          </div>
-        </div>
-
-        </div>
-
-
-
-        <div className="awards-container">
-          <br />
-          <h1>Awards</h1>
-          {awardData.map((award) => (
-            <ul>{award}</ul>
-          ))}
-        </div>
+        ))}
       </div>
+    </div>
   );
 }
-
 export default ProfEngagements;

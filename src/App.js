@@ -54,6 +54,9 @@ function App() {
           <Route path="/contact">
             <Bio /> 
           </Route>
+          <Route path="/index">
+            <Home /> 
+          </Route>
         </Switch>
     </Router>
   );

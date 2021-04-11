@@ -1,17 +1,15 @@
 import "./Bio.css";
 import Samir from "../assets/samir-bio.jpg";
+import { awardData } from "./awardData";
 
 function Bio() {
   return (
     <div className="wrapper">
 
+      <h1 className="title">Bio</h1>
       <br />
-      <br />
-      <br />
-      <img className="samir-bio" src={Samir} alt="samir"></img>
       <br />
       <div className="bio-text">
-      <br />
         Samir Khuller received his M.S and Ph.D from Cornell University in 1989
         and 1990, respectively, under the supervision of Vijay Vazirani. He
         spent two years as a Research Associate at the University of Maryland,
@@ -55,6 +53,13 @@ function Bio() {
         from IIT-Kanpur.
       </div>
       <br />
+      <div className="awards-container">
+          <h1 className="title">Awards</h1>
+          <br />
+          {awardData.map((award) => (
+            <div className="award">{award}</div>
+          ))}
+        </div>
     </div>
   );
 }

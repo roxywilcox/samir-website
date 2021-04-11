@@ -1,36 +1,15 @@
-/*.prof-engagements-container {
-  display: flex;
-  flex-direction: row;
-  max-width: 800px;
-  justify-content: center;
-  text-align: center;
-  margin:0px auto;
-  width: 800px;
-}
-
-
-.special-issues-container {
-  margin: 20px;
-  font-family: 'Playfair Display', serif;
-  font-size: 20px;
-}
-
-
-.awards-container {
-  font-family: 'Playfair Display', serif;
-}
-*/
-
 
 .motwani-img {
   border-radius: 10px;
   margin: 10px;
-  max-width: 200px;
+  max-width: 60px;
+  max-height: 50px;
 }
 .workshop-img {
   border-radius: 10px;
   margin: 10px;
-  max-width: 200px;
+  max-width: 60px;
+  max-height: 50px;
 }
 
 .event-link {
@@ -38,7 +17,7 @@
 }
 
 
-.events-container {
+.prof-engagements-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -48,15 +27,11 @@
 
 .container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
-  width: 400px;
-  height: 400px;
-  min-width: 400px;
-  min-height: 400px;
-  padding: 20px;
-  margin: 40px;
-  flex-direction: column;
+  max-width: 90px;
+  max-height: 120px;
+  flex-direction: row;
   border: 1px lightgray solid;
   text-align: center;
   font-family: 'Playfair Display', serif;
@@ -64,243 +39,10 @@
   color: black;
 }
 
-
-
-
-/* html {
-    font-family: 'Playfair Display', serif;
+.e-name {
+  font-size: 24px;
 }
 
-.top-nav navbar navbar-expand-lg navbar-dark bg-dark {
-    background-color: #4E2A84 !important;
-}
-
-.navbar,
-.navbar-default {
-    background-color: #4E2A84 !important;
-}
-
-.top-nav {
-    background-color: #4E2A84 !important;
-    position: relative; /* change to fixed? */
-    /* width: 100%;
-    margin: 0 auto;
-    color: white;
-  } */
-/* 
-.nav-link{
-    color: white !important;
-} */
-
-
-  /*
-  nav.top-nav ul {
-    list-style: none;
-    padding: 2px;
-    text-align: left;
-    margin-left: -10px; 
-  }
-
-  nav.top-nav li {
-    font-family: 'Playfair Display', serif;
-    color: white;
-    font-size: 20px;
-    margin: 15px;
-    display: inline-block;
-    padding: 0px;
-    user-select: none;
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  
-  nav.top-nav li a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  nav.top-nav li:hover {
-    text-decoration: underline;
-  }
-  */
-
-  /* .container {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .link {
-    color: black !important;
-  }
-
-  a:link {
-    color: black;
-  }
-
-  .khuller-image {
-    max-width: 120px;
-    border-radius: 5px;
-    height: auto;
-    margin-top: 8px;
-    margin-bottom: -2px;
-  }
-  
-  .event-wrapper {
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    color: black !important;
-  }
-
-  .title-wrapperNO {
-    margin: 0 auto;
-    width: 400px;
-    font-family: 'Playfair Display', serif;
-  }
-
-  .name {
-    color: black;
-    margin-right: 0px;
-    font-size: 36px;
-    margin-top: -128px;
-    margin-left: 210px;
-    margin-bottom: 15px;
-  }
-
-  .position1 {
-    color: black;
-    font-size: 18px;
-    margin-top: -14px;
-    margin-right: -50px;
-    margin-left: 210px;
-    margin-bottom: 4px;
-  }
-
-  .position2 {
-    color: black;
-    font-size: 18px;
-    margin-top: -5px;
-    margin-left: 210px;
-    margin-bottom: 5px;
-  }
-
-  .school {
-    color: black;
-    font-size: 22px;
-    margin-top: -4px;
-    margin-right: 235px;
-    margin-left: 210px;
-    margin-bottom: 10px;
-  }
-
-  .khuller-image {
-    display: block;
-    margin-left: auto;
-    margin-right: 600px;
-    width: 50%;
-    margin-top: 20px;
-  }
-
-  .bio-title {
-    color: black;
-    font-size: 34px;
-    margin-top: 100px;
-    margin-bottom: 6px;
-  }
-
-  .bio-text {
-    color: black;
-    font-size: 20px;
-    margin-top: -5px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-
-  .publication-title {
-    color: black;
-    font-size: 34px;
-    margin-top: 110px;
-    text-align: justify;
-    text-justify: inter-word;
-  }
-  .year {
-    color: black;
-    font-size: 24px;
-    margin-top: -2px;
-    text-align: justify;
-    margin-bottom: 6px;
-    text-justify: inter-word;
-  }
-  .paper {
-    color: black;
-    font-size: 18px;
-    margin-top: -2px;
-    text-align: justify;
-    text-justify: inter-word;
-  } */
-
-/* Dropdown Button */
-/* .dropbtn {
-  background-color:  #4E2A84;
-  color: white;
-  padding: 4px;
-  font-size: 20px;
-  border: none;
-  font-family: 'Playfair Display', serif;
-} */
-
-/* The container <div> - needed to position the dropdown content */
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-} */
-
-/* Dropdown Content (Hidden by Default) */
-/* .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:  #4E2A84;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-} */
-
-/* Links inside the dropdown */
-/* .dropdown-content a {
+.e-link {
   color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-} */
-
-/* Change to underline dropdown links on hover */
-/* .dropdown-content a:hover {text-decoration: underline;}
-
-/* Show the dropdown menu on hover */
-/* .dropdown:hover .dropdown-content {display: block;} */
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-/* .dropdown:hover .dropbtn {background-color:  #4E2A84;} */
-
-/* .inline {
-  display:inline-block;
-  margin-right:0px;
-} */
-
-/* .grid-container {
-  display: grid;
-  grid-template-columns: auto auto;
-  background-color:  #4E2A84;
-  padding: 5px;
 }
-
-.grid-item {
-  background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 16px;
-  text-align: left;
-}
-
-#grid-title{
-  font-weight: bolder;
-}  */
