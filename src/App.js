@@ -12,52 +12,71 @@ import Publications from "./components/Publications";
 import Talks from "./components/Talks";
 import ProfEngagements from "./components/ProfEngagements";
 
+import SinglePagePDFViewer from "./components/pdf/single-page";
+import AllPagesPDFViewer from "./components/pdf/all-pages";
+
+/* This is required only if the project file is located 
+inside the app. Otherwise you can use the external link of the pdf file*/
+import samplePDF from "./sample.pdf";
+
 function App() {
   return (
     <Router>
-        <NavBar />
-        {/*
+      <NavBar />
+      {/*
             A <Switch> looks through all its children <Route>
             elements and renders the first one whose path
             matches the current URL. Use a <Switch> any time
             you have multiple routes, but you want only one
             of them to render at a time
           */}
-        <Switch>
+      <Switch>
         <Route path="/home">
-            <Home />
-          </Route>
+          <Home />
+        </Route>
         <Route path="/teaching">
-            <Teaching />
-          </Route>
-          <Route exact path="/alumni">
-            <Alumni />
-          </Route>
-          <Route path="/phd">
-            <Phd />
-          </Route>
-          <Route path="/undergrad">
-            <Undergrad />
-          </Route>
-          <Route path="/profEngagements">
-            <ProfEngagements/>
-          </Route>
-          <Route path="/publications">
-            <Publications />
-          </Route>
-          <Route path="/talks">
-            <Talks />
-          </Route>
-          <Route path="/bio">
-            <Bio />
-          </Route>
-          <Route path="/contact">
-            <Bio /> 
-          </Route>
-          <Route path="/index">
-            <Home /> 
-          </Route>
-        </Switch>
+          <Teaching />
+        </Route>
+        <Route exact path="/alumni">
+          <Alumni />
+        </Route>
+        <Route path="/phd">
+          <Phd />
+        </Route>
+        <Route path="/undergrad">
+          <Undergrad />
+        </Route>
+        <Route path="/profEngagements">
+          <ProfEngagements />
+        </Route>
+        <Route path="/publications">
+          <Publications />
+        </Route>
+        <Route path="/talks">
+          <Talks />
+        </Route>
+        <Route path="/bio">
+          <Bio />
+        </Route>
+        <Route path="/contact">
+          <Bio />
+        </Route>
+        <Route path="/pdf">
+          <div className="App">
+            <h4>Single Page</h4>
+            <SinglePagePDFViewer pdf={samplePDF} />
+
+            <hr />
+
+            <h4>All Pages</h4>
+            <div className="all-page-container">
+              <AllPagesPDFViewer pdf={samplePDF} />
+            </div>
+
+            <hr />
+          </div>
+        </Route>
+      </Switch>
     </Router>
   );
 }

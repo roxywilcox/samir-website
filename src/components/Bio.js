@@ -8,7 +8,6 @@ function Bio() {
 
       <h1 className="title">Bio</h1>
       <br />
-      <br />
       <div className="bio-text">
         Samir Khuller received his M.S and Ph.D from Cornell University in 1989
         and 1990, respectively, under the supervision of Vijay Vazirani. He

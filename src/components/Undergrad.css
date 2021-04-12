@@ -1,0 +1,62 @@
+
+.title {
+    font-family:'Playfair Display', serif;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+
+  .undergrad-container {
+      width: 800px;
+      font-size: 18px;
+      text-align: center;
+      font-family:'Playfair Display', serif;
+
+  }
+
+  .undergrad-wrapper {
+    margin: 0 auto;
+    width: 800px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    color: black !important;
+  }
+
+  .u-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .u-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: column;
+    border: 1px lightgray solid;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 10px;
+    color: black;
+  }
+
+  .pictured {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;    
+    border-radius: 5px;
+  }
+
+  .u-name {
+    font-size: 30px;
+  }

@@ -7,7 +7,7 @@ export const publications = [
         },
         {
             "t": "S. Ahmadi, F. Ahmed, J. Dickerson., M. Fuge and S. Khuller. An Algorithm for Multi-Attribute Diverse Matching. IJCAI 2020.",
-            "l": "",
+            
         }],
     },
     {
@@ -31,7 +31,7 @@ export const publications = [
         "year": "2018",
         "papers": [{
             "t":"M. Sorokin, G. Stetsyuk, B. Russin, S, Khuller, C. Paul. Ring Graphs in Virtual Reality: Exploring a New and Novel Method for Node Placement and Link Visibility in VR-Based Graph Analysis. SIGGRAPH Asia (poster+demo).",
-            "l": "",
+           
         },
         {
             "t": "S. Khuller, J. Li, P. Sturmfels, K. Sun and P. Venkat. Select and Permute: An Improved Online Framework for Scheduling to Minimize Weighted Completion Time . LATIN 2018. Accepted to Theoretical Computer Science.",
@@ -101,7 +101,7 @@ export const publications = [
         },
         {
             "t": "S. Arora, N. Gupta, S. Khuller, Y. Sabharwal and S. Singhal. Facility Location with red-blue demands. Operations Research Letters 42 (6-7): 462-465 (2014).",
-            "l": ""
+           
         }
             
         ]
@@ -127,7 +127,7 @@ export const publications = [
         },
         {
             "t": "A. K. Kayyoor, A. Deshpande and S. Khuller. Data Placement and Replica Selection for Improving Co-location in Distributed Environments.",
-            "l": ""
+           
         }
     ]
     },
@@ -169,7 +169,7 @@ export const publications = [
             },
             {
                 "t": "J. Li and S. Khuller. Generalized Machine Activation Problems. SODA 2011.",
-                "l": "",
+                
             },
             
         ]
@@ -192,7 +192,7 @@ export const publications = [
             },
             {
                 "t": "S. Khuller and J. Chang. How many places to apply to and how many to accept? Submitted for publication.",
-                "l": "",
+                
             },
             {
                 "t": "J. Li, A. Deshpande and S. Khuller. On Computing Compression Trees for Data Collection in Wireless Sensor Networks. INFOCOM 2010 .",
@@ -229,7 +229,7 @@ export const publications = [
         },
         {
             "t": "A. Chow, L. Golubchik, S. Khuller and Y. Yao. On the tradeoff between playback delay and buffer space in streaming. 2009 IPDPS (Rome, Italy).",
-            "l": "",
+            
         },
     ]
     },
@@ -263,7 +263,7 @@ export const publications = [
             },
             {
                 "t": "S. Khuller, M. Martinez, D. Nau, G. Simari, A. Sliva, V.S. Subrahmanian. Finding most probable worlds of probabilistic logic programs. SUM 2007 . Full version in Ann. Math. Artificial Intelligence (2007).",
-                "l": "",
+               
             }
         ]
     },
@@ -275,7 +275,7 @@ export const publications = [
         },
         {
             "t": "M. Charikar and S. Khuller. A robust maximum completion time measure for scheduling. 2006 Symp. on Discrete Algorithms (SODA).",
-            "l": "",
+            
         },
         {
             "t": "J. Bleiholder, S. Khuller, F. Naumann, L. Raschid and Y. Wu. Query Planning in the presence of overlapping sources. EDBT (2006).",
@@ -287,16 +287,30 @@ export const publications = [
         },
         {
             "t": "G. Aggarwal, T. Feder, K. Kenthapadi, S. Khuller, R. Panigrahy, D. Thomas and A. Zhu. Achieving anonymity via clustering. 2006 Principles of Database Systems (PODS). Full version Accepted to ACM Trans. on Algorithms.",
-            "l": ""
+            
         },
         {
             "t": "S. Khuller, Y-A. Kim, A.Malekian. Improved algorithms for Data migration. 2006 Workshop on Approximation Algorithms (APPROX). Full version accepted to Algorithmica.",
-            "l": ""
+            
         }
     ]
     },
     
 ];
+
+/*
+export const publications_downloads = [
+    {
+        "year": "2005",
+        "papers": [
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young. Greedy Methods. Book Chapter.",
+                "l": 
+            }
+        ]
+    }
+]
+*/
 
 /*
 {

@@ -6,10 +6,8 @@ function Teaching() {
     <div className="teaching-container">
       
       <div className="wrapper">
+        <div className="title">Teaching</div>
         <br />
-        <br />
-        <br />
-
         <div className="grid-container">
           <div className="grid-item" id="grid-title">
             Term
