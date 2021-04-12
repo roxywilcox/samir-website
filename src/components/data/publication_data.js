@@ -26,7 +26,276 @@ export const publications = [
                 },
             ]    
        
-    }
+    },
+    {
+        "year": "2018",
+        "papers": [{
+            "t":"M. Sorokin, G. Stetsyuk, B. Russin, S, Khuller, C. Paul. Ring Graphs in Virtual Reality: Exploring a New and Novel Method for Node Placement and Link Visibility in VR-Based Graph Analysis. SIGGRAPH Asia (poster+demo).",
+            "l": "",
+        },
+        {
+            "t": "S. Khuller, J. Li, P. Sturmfels, K. Sun and P. Venkat. Select and Permute: An Improved Online Framework for Scheduling to Minimize Weighted Completion Time . LATIN 2018. Accepted to Theoretical Computer Science.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/cos-latin.pdf",
+        },
+        {
+            "t": "S. Kumar, S. Khuller. Brief Announcement: A Greedy 2 approximation algorithm for the active time problem SPAA 2018.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/spaa18.pdf",
+
+        },
+        {
+            "t": "S. Grover, N. Gupta, S. Khuller A. Pancholi. Constant factor approximation algorithm for uniform hard capacitated knapsack median problem FST&TCS 2018. Submitted for journal publication.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/fsttcs2018.pdf",
+        }
+        ]
+    },
+    {
+        "year": "2017",
+        "papers": [ {
+            "t": "S. Khuller, F. Koehler. BusyTime Scheduling: Online and Offline Algorithms 2017 WADS.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/wads17.pdf",
+        },
+        {
+            "t": "S. Ahmadi, S. Khuller, M. Purohit and S. Yang. On Scheduling Co-Flows. To appear in Integer Programming and Combinatorial Optimization (IPCO), 2017. Full version accepted to Algorithmica.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/ipco2017.pdf",
+        }    
+        ]
+    },
+    {
+        "year": "2016",
+        "papers": [{
+            "t": "S. Khuller, M. Purohit. Brief Announcement: Improved approximation algorithms for scheduling co-flows. SPAA 2016.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/spaa16.pdf",
+        },
+        {
+            "t": "R. Murray, M. Chao and S. Khuller. Scheduling distributed clusters of parallel machines: primal dual and LP based approximation algorithms. ESA 2016. Full version Algorithmica.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/esa2016.pdf",
+        },
+        {
+            "t": "I. Bercea, V. Isler, S. Khuller. Minimizing Uncertainty through Sensor Placement with Angle Constraints. CCCG 2016.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/CCCG2016.pdf",
+        },
+        {
+            "t": "S. Khuller, S. Yang. Revisiting Connected Dominating Sets: An optimal local algorithm? APPROX 2016. Full version to appear in Algorithmica.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/approx2016.pdf",
+        }
+            
+        ]
+    },
+    {
+        "year": "2015",
+        "papers": [{
+            "t": "H. Daume, S. Khuller, M. Purohit, G. Sanders. On correcting inputs: Inverse optimization with a margin. FST&TCS 2015.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/FSTTCS2016.pdf",
+        } 
+        ]
+    },
+    {
+        "year": "2014",
+        "papers": [{
+            "t": "S. Khuller, M. Purohit, K. K. Sarpatwar. Analyzing the Optimal Neighborhood: Algorithms for Partial and Budgeted Connected Dominating Set Problems. 2014 SODA. Full version submitted to SIAM Journal on Discrete Math.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/pcds.pdf",
+        },
+        {
+            "t": "J. Chang, S. Khuller, K. Mukherjee. LP Rounding and Combinatorial Algorithms for minimizing active and busy time. 2014 SPAA. Full version to appear in Special Issue of Journal of Scheduling.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/spaa14.pdf",
+        },
+        {
+            "t": "S. Arora, N. Gupta, S. Khuller, Y. Sabharwal and S. Singhal. Facility Location with red-blue demands. Operations Research Letters 42 (6-7): 462-465 (2014).",
+            "l": ""
+        }
+            
+        ]
+    },
+    {
+        "year": "2013",
+        "papers": [{
+            "t": "F. Koehler and S. Khuller. Optimal batch schedules for parallel machines. 2013 WADS.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/sched-wads.pdf",
+        },
+        {
+            "t": "K. Mukherjee, S. Khuller, A. Deshpande. Algorithms for the Thermal Scheduling Problem. 2013 IPDPS.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/ipdps13.pdf",
+
+        },
+        {
+            "t": "L. Golubchik, S. Khuller, K. Mukherjee and Y. Yao. To send or not to send: Reducing the cost of data transmission. 2013 INFOCOM.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/infocom13.pdf",
+        },
+        {
+            "t": "J. Chang and S. Khuller. A Min-Edge Cost Flow Framework for Capacitated Covering Problems. ALENEX 2013.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/alenex2013.pdf",
+        },
+        {
+            "t": "A. K. Kayyoor, A. Deshpande and S. Khuller. Data Placement and Replica Selection for Improving Co-location in Distributed Environments.",
+            "l": ""
+        }
+    ]
+    },
+    {
+        "year": "2012",
+        "papers": [{
+            "t": "K. Mukherjee, S. Khuller, A. Deshpande. Saving on Cooling: The Thermal Scheduling Problem. SIGMETRICS 2012 (poster).",
+            "l": "http://www.cs.umd.edu/users/samir/grant/sigmetrics_abstract.pdf",
+        },
+        {
+            "t": "B.Saha and S. Khuller. Set Cover revisited: Hypergraph Cover with Hard Capacities. ICALP 2012. A more complete version.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/icalp12.pdf",
+        },
+        {
+            "t": "J. Chang, H. Gabow and S. Khuller. A model for minimizing active processor time. ESA 2012. Full version to appear in special issue of Algorithmica",
+            "l": "http://www.cs.umd.edu/users/samir/grant/esa12.pdf",
+        },
+        {
+            "t": "S. Khuller, B. Saha and K. K. Sarpatwar. New Approximation Results for Resource Replication Problems. APPROX 2012. Full version in Algorithmica.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/approx12.pdf",
+        },
+        {
+            "t": "G. Duggal, R. Patro, E. Sefer, H. Wang, D. Filippova, S. Khuller and C. Kingsford. Resolving Spatial Inconsistencies in Chromosome Conformation Data. WABI 2012. Invited to special issue of BMC from WABI.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/wabi12.pdf"
+        },
+        {
+            "t": "M. Cygan, M.T. Hajiaghayi and S. Khuller. LP Rounding for $k$-Centers with Non-uniform Hard Capacities. FOCS 2012.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/focs12.pdf",
+        }
+
+        ]
+    },
+    {
+        "year": "2011",
+        "papers": [
+            {
+                "t": "A. Thor, P. Anderson, L. Raschid, S. Navlakha, B. Saha, S. Khuller, X. Zhang. Link Prediction for Annotation Graph Datasets using Graph Summarization. 2011 Int. Semantic Web Conference, Bonn.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/lppdabw.pdf",
+            },
+            {
+                "t": "J. Li and S. Khuller. Generalized Machine Activation Problems. SODA 2011.",
+                "l": "",
+            },
+            
+        ]
+    },
+    {
+        "year": "2010",
+        "papers": [
+            {
+                "t": "C. Chekuri, A. Gal, S. Im, S. Khuller, J. Li, R. McCutchen, B. Moseley and L. Raschid. New Models and Algorithms for Throughput Maximization in Broadcast Scheduling WAOA 2010.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/waoabroadcast.pdf",
+            },
+            {
+                "t": "E. Bortnikov, S. Khuller, J.Li, Y. Mansour and S. Naor. The Load-Distance Balancing Problem. To appear Special Issue of Networks from INOC 2009.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/loaddis_NETWORKS.pdf",
+
+            },
+            {
+                "t": "S. Khuller, J. Li and B. Saha. Energy efficient scheduling via partial shutdown. SODA 2010.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/soda10.pdf",
+            },
+            {
+                "t": "S. Khuller and J. Chang. How many places to apply to and how many to accept? Submitted for publication.",
+                "l": "",
+            },
+            {
+                "t": "J. Li, A. Deshpande and S. Khuller. On Computing Compression Trees for Data Collection in Wireless Sensor Networks. INFOCOM 2010 .",
+                "l": "http://www.cs.umd.edu/users/samir/grant/infocom10.pdf",
+            },
+            {
+                "t": "A. Deshpande, S. Khuller and A. Srivastava. A case for spatially-aware optmization in data centers Submitted.",
+                "l": ""
+            },
+            {
+                "t": "B. Saha, A. Hoch, S. Khuller, L. Raschid and X. Zhang. Dense Subgraphs with Restrictions and Applications to Gene Annotation Graphs. RECOMB 2010.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/recomb10.pdf",
+            }
+
+        ]
+    },
+    {
+        "year": "2009",
+        "papers": [{
+            "t": "S. Khuller and B. Saha. On finding dense subgraphs. ICALP 2009. Journal submission.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/icalp-final.pdf",
+        },
+        {
+            "t": "S. Alaei, E. Arcaute, S. Khuller, W. Ma, A. Malekian and J. Tomlin Online Allocation of Display Advertisements Subject to Advanced Sales Contracts}. 2009 Workshop on Data Mining and Audience Intelligence for Advertising.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/adkdd.pdf",
+        },
+        {
+            "t": "E. Bortnikov, S. Khuller, Y. Mansour and S. Naor. The Load-Distance Balancing Problem. 2009 International Network Optimization Conference (INOC) .",
+            "l": "http://www.cs.umd.edu/users/samir/grant/inoc.pdf",
+        },
+        {
+            "t": "J. Li, A. Deshpande and S. Khuller. Minimizing communication cost in distributed multi-query processing. 2009 International Conference on Data Engineering (ICDE) (Shanghai).",
+            "l": "http://www.cs.umd.edu/users/samir/grant/icde09.pdf",
+        },
+        {
+            "t": "A. Chow, L. Golubchik, S. Khuller and Y. Yao. On the tradeoff between playback delay and buffer space in streaming. 2009 IPDPS (Rome, Italy).",
+            "l": "",
+        },
+    ]
+    },
+    {
+        "year": "2008",
+        "papers": [
+            {
+                "t": "S. Khuller and J. Mestre. An Optimal Incremental Algorithm for Minimizing Lateness with Rejection 2008 European Symposium on Algorithms (ESA). Submitted for publication Journal.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/esa08.pdf",
+            },
+            {
+                "t": "R. McCutchen and S. Khuller. Streaming algorithms for $k$-center clustering with outliers and with anonymity 2008 Workshop on Approximation Algorithms (APPROX).",
+                "l": "http://www.cs.umd.edu/users/samir/grant/approx08.pdf",
+            },
+            {
+                "t": "J. Chang, T. Erlebach, R. Gailis and S. Khuller. Broadcast Scheduling: Algorithms and Complexity. 2008 Symp. on Discrete Algorithms (SODA) . To appear in ACM Trans. on Algorithms.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/soda-final-edited.pdf",
+            },
+            {
+                "t": "A. Deshpande, S. Khuller, A. Malekian and M. Toossi. Energy Efficient Monitoring in Sensor Networks. LATIN 2008. Invited to special issue of Algorithmica.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/latin-jo.pdf",
+            }
+        ]
+    },
+    {
+        "year": "2007",
+        "papers": [
+            {
+                "t": "S. Khuller, A. Malekian and J. Mestre. The Gas Station Problem. 2007 European Symp. on Algorithms (ESA). To appear in ACM Trans. on Algorithms.",
+                "l": "http://www.cs.umd.edu/users/samir/grant/gas-j.pdf",
+            },
+            {
+                "t": "S. Khuller, M. Martinez, D. Nau, G. Simari, A. Sliva, V.S. Subrahmanian. Finding most probable worlds of probabilistic logic programs. SUM 2007 . Full version in Ann. Math. Artificial Intelligence (2007).",
+                "l": "",
+            }
+        ]
+    },
+    {
+        "year": "2006",
+        "papers": [{
+            "t": "S. Kashyap, S. Khuller, Y-C. Wan and L. Golubchik. Fast Reconfiguration of Data Placement in Parallel Disks. 2006 ALENEX.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/alenex06.pdf",
+        },
+        {
+            "t": "M. Charikar and S. Khuller. A robust maximum completion time measure for scheduling. 2006 Symp. on Discrete Algorithms (SODA).",
+            "l": "",
+        },
+        {
+            "t": "J. Bleiholder, S. Khuller, F. Naumann, L. Raschid and Y. Wu. Query Planning in the presence of overlapping sources. EDBT (2006).",
+            "l": "http://www.cs.umd.edu/users/samir/grant/edbt06.pdf",
+        },
+        {
+            "t": "A. Kashyap, S. Khuller and M. Shayman. Relay placement for higher order connectivity in sensor networks. INFOCOM (2006). Submitted for journal publication.",
+            "l": "http://www.cs.umd.edu/users/samir/grant/alenex06.pdf",
+        },
+        {
+            "t": "G. Aggarwal, T. Feder, K. Kenthapadi, S. Khuller, R. Panigrahy, D. Thomas and A. Zhu. Achieving anonymity via clustering. 2006 Principles of Database Systems (PODS). Full version Accepted to ACM Trans. on Algorithms.",
+            "l": ""
+        },
+        {
+            "t": "S. Khuller, Y-A. Kim, A.Malekian. Improved algorithms for Data migration. 2006 Workshop on Approximation Algorithms (APPROX). Full version accepted to Algorithmica.",
+            "l": ""
+        }
+    ]
+    },
+    
 ];
 
 /*
@@ -34,7 +303,7 @@ export const publications = [
     "year": "2018",
     "papers": [ "M. Sorokin, G. Stetsyuk, B. Russin, S, Khuller, C. Paul. Ring Graphs in Virtual Reality: Exploring a New and Novel Method for Node Placement and Link Visibility in VR-Based Graph Analysis. SIGGRAPH Asia (poster+demo).",
     "S. Khuller, J. Li, P. Sturmfels, K. Sun and P. Venkat. Select and Permute: An Improved Online Framework for Scheduling to Minimize Weighted Completion Time . LATIN 2018. Accepted to Theoretical Computer Science.",
-    "S. Kumar, S. Khuller. Brief Announcement: A Greedy 2 approximation algorithm for the active time problem SPAA 2018.","S. Grover, N. Gupta, S. Khuller A. Pancholi. Constant factor approximation algorithm for uniform hard capacitated knapsack median problem FST&TCS 2018. Submitted for journal publication."],
+    "S. Khuller, J. Li, P. Sturmfels, K. Sun and P. Venkat. Select and Permute: An Improved Online Framework for Scheduling to Minimize Weighted Completion Time . LATIN 2018. Accepted to Theoretical Computer Science.""S. Khuller, J. Li, P. Sturmfels, K. Sun and P. Venkat. Select and Permute: An Improved Online Framework for Scheduling to Minimize Weighted Completion Time . LATIN 2018. Accepted to Theoretical Computer Science."
 },
 {
     "year": "2017",
