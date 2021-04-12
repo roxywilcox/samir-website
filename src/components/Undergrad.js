@@ -1,19 +1,18 @@
 import "./Undergrad.css";
 import { undergradData } from "./undergradData";
-import Sheng from "../assets/sheng.jpg";
 import Emoji from "../assets/emoji2.jpg";
 
 function Undergrad() {
   return (
     <div>
-      <div className="title">Undergraduate Students</div>
+      <div className="title">Undergraduate Researchers</div>
 
       <div className="u-container">
         {undergradData.map((undergrad) => (
           <div className="u-item-container">
             <br/>
             <br/>
-            <img className="pictured" src={Emoji} alt="prof-pic" />
+            <img className="pictured" src={undergrad.img} alt="prof-pic" />
             <br/>
             <br/>
             <div className="u-name">{undergrad.name}</div>

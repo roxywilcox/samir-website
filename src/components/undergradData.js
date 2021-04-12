@@ -1,18 +1,26 @@
+import Allie from "../assets/allie.png";
+import Emoji from "../assets/emoji2.jpg"
+
 export const undergradData = [
   {
-    name: "name1",
+    name: "Allie Janoch",
+    img: Allie
   },
   {
     name: "name1",
+    img: Emoji
   },
   {
     name: "name1",
+    img: Emoji
   },
   {
     name: "name1",
+    img: Emoji
   },
   {
     name: "name1",
+    img: Emoji
   },
 ];
 // export const undergradData =

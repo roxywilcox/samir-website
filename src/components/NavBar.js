@@ -25,7 +25,7 @@ function NavBar() {
             <NavDropdown title="Students" id="basic-nav-dropdown">
               <NavDropdown.Item href="/alumni">Alumni</NavDropdown.Item>
               <NavDropdown.Item href="/phd">PhD Students</NavDropdown.Item>
-              <NavDropdown.Item href="/undergrad">Undergraduate Students</NavDropdown.Item>
+              <NavDropdown.Item href="/undergrad">Undergraduates</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="/profEngagements">Professional Engagements</Nav.Link>
             <Nav.Link href="/publications">Publications</Nav.Link>
