@@ -1,5 +1,6 @@
 import Allie from "../assets/allie.png";
-import Emoji from "../assets/emoji2.jpg"
+import Emoji from "../assets/emoji2.jpg";
+import Elissa from "../assets/elissa.png";
 
 export const undergradData = [
   {
@@ -7,8 +8,8 @@ export const undergradData = [
     img: Allie
   },
   {
-    name: "name1",
-    img: Emoji
+    name: "Elissa Redmiles",
+    img: Elissa
   },
   {
     name: "name1",
