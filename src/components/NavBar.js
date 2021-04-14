@@ -16,7 +16,7 @@ function NavBar() {
           <div className="school">Northwestern University</div>
         </div>
       </div>
-      <Navbar expand="lg" variant="dark" className="top-nav">
+      <Navbar expand="lg" variant="dark" className="top-nav justify-content-center">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto" id="nav-container">

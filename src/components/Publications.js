@@ -1,5 +1,6 @@
 import "./Publications.css";
 import { publications } from "./data/publication_data";
+import Info from "../assets/INFOCOMFull2013.pdf";
 
 function Publications() {
   return (
@@ -30,7 +31,7 @@ function Publications() {
       </div>
       <a href="/pdf">pdf</a>
       <br/>
-      <a href="sample2.pdf" download>pdf2</a>
+      <a href={Info} download>pdf2</a>
       
     </div>
   );
