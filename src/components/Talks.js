@@ -9,7 +9,7 @@ function Talks() {
         <br />
         {talksData.map((talk) => (
           <div className="pub-wrapper">
-            <a href={talk.slides}>
+            <a href={talk.slides} download>
               <div className="talk-title">{talk.title}</div>
             </a>
 

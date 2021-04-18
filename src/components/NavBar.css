@@ -18,6 +18,7 @@ html {
   height: 40px;
   margin: 0 auto;
   color: white;
+  /* display: flex; */
 }
 
 /* .navbar-nav {
