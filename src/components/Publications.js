@@ -29,9 +29,7 @@ function Publications() {
           </div>
         ))}
       </div>
-      <a href="/pdf">pdf</a>
-      <br/>
-      <a href={Info} download>pdf2</a>
+     
       
     </div>
   );

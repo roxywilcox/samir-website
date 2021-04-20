@@ -1,10 +1,5 @@
 import "./ProfEngagements.css";
-import Motwani from "../assets/motwani.jpg";
-import Vjay from "../assets/vjay.jpg";
-import Maryland from "../assets/maryland-logo.png";
-import Logo from "../assets/logo-1.png";
-import { talksData } from "./data/talks_data";
-import {profEngagementsData} from "./ProfEngagementsData";
+import {profEngagementsData} from "./data/prof_engagements_data";
 
 
 function ProfEngagements() {

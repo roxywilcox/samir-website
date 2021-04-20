@@ -1,5 +1,5 @@
-import Pattara from "../assets/pattara.jpg";
-import Saba from "../assets/saba.png";
+import Pattara from "../../assets/pattara.jpg";
+import Saba from "../../assets/saba.png";
 
 export const phdData =
 [

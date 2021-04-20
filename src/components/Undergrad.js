@@ -1,6 +1,5 @@
 import "./Undergrad.css";
-import { undergradData } from "./undergradData";
-import Emoji from "../assets/emoji2.jpg";
+import { undergradData } from "./data/undergrad_data";
 
 function Undergrad() {
   return (

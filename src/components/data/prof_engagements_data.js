@@ -1,7 +1,7 @@
-import Motwani from "../assets/motwani.jpg";
-import Vjay from "../assets/vjay.jpg";
-import Maryland from "../assets/maryland-logo.png";
-import Logo from "../assets/logo-1.png";
+import Motwani from "../../assets/motwani.jpg";
+import Vjay from "../../assets/vjay.jpg";
+import Maryland from "../../assets/maryland-logo.png";
+import Logo from "../../assets/logo-1.png";
 
 export const profEngagementsData = [
     {

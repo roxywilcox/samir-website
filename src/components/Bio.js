@@ -1,6 +1,6 @@
 import "./Bio.css";
 import Samir from "../assets/samir-bio.jpg";
-import { awardData } from "./awardData";
+import { awardData } from "./data/award_data";
 
 function Bio() {
   return (

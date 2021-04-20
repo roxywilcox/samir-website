@@ -1,28 +1,36 @@
-import Sheng from "../assets/sheng.jpg";
-import Ioana from "../assets/ioana.jpg";
-import Manish from "../assets/manish.jpg";
-import Rajiv from "../assets/rajiv.jpg";
-import Kanthi from "../assets/kanthi.jpg";
-import Saeed from "../assets/saeed.jpeg";
-import Saba from "../assets/saba.png";
-import Koyel from "../assets/koyel.png";
-import Jessica from "../assets/uw.png";
-import Barna from "../assets/barna.png"; 
-import Azarakhsh from "../assets/azar.jpg";
-import Srinivas from "../assets/raaghav.jpeg";
-import Julian from "../assets/julian.jpg";
-import Justin from "../assets/justin.jpg";
-import Yoo from "../assets/yoo.jpg";
-import Michael from "../assets/maryland.jpg";
-import Yoram from "../assets/iona.jpg";
-import Randeep from "../assets/randeep.jpg";
-import Tsinghua from "../assets/tsinghua.jpg";
+import Sheng from "../../assets/sheng.jpg";
+import Ioana from "../../assets/ioana.jpg";
+import Manish from "../../assets/manish.jpg";
+import Rajiv from "../../assets/rajiv.jpg";
+import Kanthi from "../../assets/kanthi.jpg";
+import Saeed from "../../assets/saeed.jpeg";
+import Koyel from "../../assets/koyel.png";
+import Jessica from "../../assets/uw.png";
+import Barna from "../../assets/barna.png"; 
+import Azarakhsh from "../../assets/azar.jpg";
+import Srinivas from "../../assets/raaghav.jpeg";
+import Julian from "../../assets/julian.jpg";
+import Justin from "../../assets/justin.jpg";
+import Yoo from "../../assets/yoo.jpg";
+import Michael from "../../assets/maryland.jpg";
+import Yoram from "../../assets/iona.jpg";
+import Randeep from "../../assets/randeep.jpg";
+import Tsinghua from "../../assets/tsinghua.jpg";
+import Saba from "../../assets/saba.png";
 
 
 
 
 export const alumniData =
 [
+  {
+    "name": "Saba Ahmadi",
+    "bio": "idk",
+    "thesis": "idk",
+    "graduation_date": "May 2021",
+    "img": Saba,
+    "website": "https://sabaahmadi.github.io/",
+  },
   {
     "name": "Sheng Yang",
     "bio":"Postdoc at Northwestern University.",

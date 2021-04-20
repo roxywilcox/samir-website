@@ -1,7 +1,7 @@
-import Allie from "../assets/allie.png";
-import Emoji from "../assets/emoji2.jpg";
-import Elissa from "../assets/elissa.png";
-import Svet from "../assets/svet.jpg";
+import Allie from "../../assets/allie.png";
+import Emoji from "../../assets/emoji2.jpg";
+import Elissa from "../../assets/elissa.png";
+import Svet from "../../assets/svet.jpg";
 
 export const undergradData = [
   {

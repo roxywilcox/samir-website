@@ -5,7 +5,7 @@ import Saeed from "../assets/saeed.jpeg";
 import Saba from "../assets/saba.png";
 import Koyel from "../assets/koyel.png";
 import Ioana from "../assets/ioana.jpg";
-import { alumniData } from "./alumniData";
+import { alumniData } from "./data/alumni_data";
 import "./Alumni.css";
 
 function Alumni() {

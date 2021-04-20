@@ -1,6 +1,5 @@
 import "./Phd.css";
-import { phdData } from "./phdData";
-import Sheng from "../assets/sheng.jpg";
+import { phdData } from "./data/phd_data";
 
 function Phd() {
   return (
