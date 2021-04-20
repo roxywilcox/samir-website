@@ -1,6 +1,45 @@
 import Greedy from "../../assets/greedy.ps";
 import PCharles from "../../assets/pcharles.pdf";
 import SabaPaper from '../../assets/sabapaper.pdf';
+import Esa from "../../assets/esa.ps";
+import Kkw from "../../assets/kkw.ps";
+import a2004 from "../../assets/2004-1.ps";
+import b2004 from "../../assets/2004-2.ps";
+import c2004 from "../../assets/2004-3.ps";
+import a2003 from "../../assets/renars.ps";
+import b2003 from "../../assets/orl.ps";
+import c2003 from "../../assets/esa03.ps";
+import d2003 from "../../assets/fsttcs03.ps";
+import e2003 from "../../assets/approx03.ps";
+import f2003 from "../../assets/icalp03.ps";
+import g2003 from "../../assets/infocom03.ps";
+import h2003 from "../../assets/bkkbk.ps";
+import i2003 from "../../assets/kkw03.ps";
+import a2002 from "../../assets/iwcw.ps";
+import b2002 from "../../assets/ipco02.ps";
+import c2002 from "../../assets/focs02.ps";
+import d2002 from "../../assets/kz02.ps";
+import e2002 from "../../assets/ghko02.ps";
+import f2002 from "../../assets/zk02.ps";
+import a2001 from "../../assets/z.ps";
+import b2001 from "../../assets/icalp01.ps";
+import c2001 from "../../assets/bk01.ps";
+import d2001 from "../../assets/outlier.pdf";
+import e2001 from "../../assets/secure.ps";
+import a2000 from "../../assets/gkktz2000.ps";
+import b2000 from "../../assets/kbp2000.ps";
+import c2000 from "../../assets/krw98.ps";
+import d2000 from "../../assets/bistro.ps";
+
+
+
+
+
+
+
+
+
+
 
 export const first_two_papers = [
     {
@@ -313,38 +352,160 @@ export const publications_downloads = [
             {
                 "t": "S. Khuller, B. Raghavachari and N. Young. Greedy Methods. Book Chapter.",
                 "l": Greedy,
+            },
+            {
+                "t": "S. Khuller, K. Lee and M. Shayman. On Degree Constrained Shortest Paths. 2005 European Symp. on Algorithms (ESA).",
+                "l": Esa,
+            },
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young. Greedy Methods. Book Chapter.",
+                "l": Kkw,
+            },
+        ]
+    },
+    {
+        "year": "2004",
+        "papers": [
+            {
+                "t": "L. Golubchik, S. Khuller, Y. Kim, S. Shargorodksaya and Y-C. Wan. Data migration on parallel disks. 2004 European Symp. on Algorithms (ESA). Full version in special Issue of Algorithmica from ESA 2004.",
+                "l": a2004,
+            },
+            {
+                "t": "S. Khuller, Y. Kim and G. Woeginger. A polynomial time approximation scheme for broadcasting in heterogenous networks. APPROX 2004. Full version in Algorithmica, Vol 48(1):1--21 (2007)(merged with SODA 2004 paper).",
+                "l": b2004,
+            },
+            {
+                "t": "S. Khuller and Y. Kim. On broadcasting in heterogenous networks. 2004 Symp. on Discrete Algorithms (SODA). Full version in Algorithmica, Vol 48(1):1--21 (2007).",
+                "l": c2004,
             }
+        ],
+    },
+    {
+        "year": "2003",
+        "papers": [
+            {
+                "t": "R. Gailis and S. Khuller. Broadcast Scheduling with Deadlines. Manuscript .",
+                "l": a2003,
+            },
+            {
+                "t": "S. Khuller and Y. Kim. Equivalence of Two Linear Programming Relaxations for Broadcast Scheduling. Operations Research Letters Vol 32(5):473--478 (2004)",
+                "l": b2003,
+            },
+            {
+                "t": "S. Khuller, Y. Kim and Y-C. Wan. On generalized broadcasting and gossiping. 2003 European Symp. on Algorithms (ESA). Full version in Journal of Algorithms (2005) .",
+                "l": c2003,
+            },
+            {
+                "t": "S. Kashyap and S. Khuller. Algorithms for Non-Uniform Size Data Placement on Parallel Disks. FST&TCS 2003. Full version in Journal of Algorithms (2005) .",
+                "l": d2003,
+            },
+            {
+                "t": "R. Gandhi, S. Khuller, A. Srinivasan and N. Wang. Approximation algorithms for channel allocation problems in broadcast networks . APPROX 2003. Full version in Networks (2006).",
+                "l": e2003,
+            },
+            {
+                "t": "R.Gandhi, E. Halperin, S. Khuller, G. Kortsarz and A.Srinivasan. An improved approximation algorithm for vertex cover with hard capacities. ICALP 2003 . Full version in JCSS Vol 72(1):16--33 (2006).",
+                "l": f2003,
+            },
+            {
+                "t": "B. Cheng, C.F. Chou, L. Golubchik, S. Khuller, Y-C. Wan. Large scale data collection: a co-ordinated approach. . INFOCOM 2003. IEEE Journal on Special Areas in Communication (Special Issue on Design, Implementation and Analysis of Communication Protocols). Vol 22(1): 2004--2019, (2004).",
+                "l": g2003,
+            },
+            {
+                "t": "S. Banerjee, C. Kommareddy, K. Kar, B. Bhattacharjee and S. Khuller. Construction of an Efficient Overlay Multicast Infrastructure for Real-Time Applications. INFOCOM 2003",
+                "l": h2003,
+            },
+            {
+                "t": "S. Khuller, Y. Kim and Y-C. Wan. Algorithms for Data Migration with Cloning. 22nd ACM Principles of Database Conference (PODS) 2003. Full version in SIAM J. on Computing Vol 33(2): 448--461, (2004).",
+                "l": i2003,
+            },
+
+        ],
+    },
+    {
+        "year": "2002",
+        "papers":[
+            {
+                "t": "C.F Chou, Y-C. Wan, B. Cheng, L. Golubchik, S. Khuller. A performance study of a large scale data collection problem, . 7th International Workshop on Web Content Caching and Distribution, (IWCW 2002), (Aug '02).",
+                "l": a2002,
+            },
+            {
+                "t": "R. Gandhi, S. Khuller, Y. Kim and Y-C. Wan. Approximation algorithms for broadcast scheduling. 9th Conference on Integer Programming and Combinatorial Optimization (IPCO) 2002. Full version in Algorithmica Vol 38: 597--608, (2004).",
+                "l": b2002,
+            },
+            {
+                "t": "R. Gandhi, S. Khuller, S. Parthasarathy and A. Srinivasan. Dependent Rounding on Bipartite Graphs. 43rd Conference Foundations of Computer Science (FOCS), (Nov '02). Full version in JACM.",
+                "l": c2002,
+            },
+            {
+                "t": "S. Khuller and A. Zhu. The General Steiner Tree-Star Problem. Information Processing Letters (2002) .",
+                "l": d2002,
+            },
+            {
+                "t": "Sudipto Guha, Rafi Hassin, Samir Khuller and Einat Or. Capacitated vertex covering with applications . SODA 2002. J. of Algorithms Vol 48(1), pp. 257--270, (2003).",
+                "l": e2002,
+            },
+            {
+                "t": "Leonid Zosin and Samir Khuller. On directed Steiner trees. SODA 2002.",
+                "l": f2002,
+            },
+
+        ],
+    },
+    {
+        "year": "2001",
+        "papers": [
+            {
+                "t": "Ruth Ben-Yashar, Samir Khuller, Sarit Kraus. Optimal collective dichotomous choice under partial order constraints. Mathematical Social Sciences Vol 41, pp. 349--364, (2001).",
+                "l": "",
+            },
+            {
+                "t": "Rafi Hassin, Samir Khuller. Z-Approximations. Journal of Algorithms Vol 41(2), pp. 429--442 (2001).",
+                "l": a2001,
+            },
+            {
+                "t": "Rajiv Gandhi, Samir Khuller and Aravind Srinivasan. Approximation Algorithms for Partial Covering Problems. ICALP 2001. J. of Algorithms Vol 53(1): 55--84 (2004).",
+                "l": b2001,
+            },
+            {
+                "t": "Suman Banerjee and Samir Khuller. A Clustering Scheme for Hierarchical Routing in Wireless Networks. INFOCOM 2001.",
+                "l": c2001,
+            },
+            {
+                "t": "Moses Charikar, Samir Khuller, Giri Narasimhan and Dave Mount. Facility Location with Outliers. 12th Symposium on Discrete Algorithms (SODA), (Jan 2001), Washington DC.",
+                "l": d2001,
+            },
+            {
+                "t": "B. Cheng, C.F Chou, L. Golubchik, S. Khuller. A Secure and Scalable Web Upload Service Architecture. International Conference on Internet Computing (IC 2001), (Jun '01).",
+                "l": e2001,
+            },
+        ]
+
+    },
+    {
+        "year": "2000",
+        "papers": [
+            {
+                "t": "Leana Golubchik, Sanjeev Khanna, Samir Khuller, Ramki Thurimella and An Zhu. Approximation Algorithms for Data Placement on Parallel Disks. 11th Symposium on Discrete Algorithms (SODA), (Jan 2000), San Francisco. Full version To appear ACM Trans. on Algorithms.",
+                "l": a2000,
+            },
+            {
+                "t": "Samir Khuller, Randeep Bhatia and Robert Pless. On Local Search and Placement of Meters in Networks. 11th Symposium on Discrete Algorithms (SODA), (Jan 2000), San Francisco. SIAM Journal on Computing Vol 32(2), pp. 470--487, (2003).",
+                "l": b2000,
+            },
+            {
+                "t": "Samir Khuller, Azriel Rosenfeld and Angela Wu. Centers of sets of pixels. Discrete Applied Mathematics Vol 103, pp. 297--306, (2000).",
+                "l": c2000,
+            },
+            {
+                "t": "S. Bhattacharjee, W. C. Cheng, C.-F. Chou, L. Golubchik, S. Khuller. Bistro: a Platform for Building Scalable Wide-Area Upload Applications. ACM SIGMETRICS Performance Evaluation Review (also presented at the Workshop on Performance and Architecture of Web Servers (PAWS) in June 2000). Volume 28, Number 2, September 2000, pp. 29-35.",
+                "l": d2000,
+            },
         ]
     }
 ];
 
 
-
-
-//             {
-//                 "t":
-//                 "l":
-//             },
-//             {
-//                 "t":
-//                 "l":
-//             }
-//         ]
-//     },
-//     {
-//         "year":
-//         "papers":
-//     },
-//     {
-//         "year":
-//         "papers":
-//     },
-//     {
-//         "year":
-//         "papers":
-//     }
-    
-// ];
 
 /*
 export const publications_downloads = [
