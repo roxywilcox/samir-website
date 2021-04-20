@@ -25,8 +25,8 @@ export const alumniData =
 [
   {
     "name": "Saba Ahmadi",
-    "bio": "idk",
-    "thesis": "idk",
+    "bio": "Applying to Postdocs.",
+    "thesis": "Social Aspects of Algorithms: Fairness, Diversity, and Resilience to Strategic Behavior",
     "graduation_date": "May 2021",
     "img": Saba,
     "website": "https://sabaahmadi.github.io/",

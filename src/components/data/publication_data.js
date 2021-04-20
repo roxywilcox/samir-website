@@ -1,3 +1,5 @@
+import Greedy from "../../assets/greedy.ps";
+
 export const publications = [
     {
         "year": "2020",
@@ -297,14 +299,21 @@ export const publications = [
     }
 ];
 
-// const publications_downloads = [
-//     {
-//         "year": "2005",
-//         "papers": [
-//             {
-//                 "t": "S. Khuller, B. Raghavachari and N. Young. Greedy Methods. Book Chapter."
-//                 "l": 
-//             },
+export const publications_downloads = [
+    {
+        "year": "2005",
+        "papers": [
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young. Greedy Methods. Book Chapter.",
+                "l": Greedy,
+            }
+        ]
+    }
+];
+
+
+
+
 //             {
 //                 "t":
 //                 "l":

@@ -1,6 +1,6 @@
 import "./Publications.css";
 import { publications } from "./data/publication_data";
-import Info from "../assets/INFOCOMFull2013.pdf";
+import { publications_downloads } from "./data/publication_data";
 
 function Publications() {
   return (
@@ -20,6 +20,24 @@ function Publications() {
               {pub.papers.map((title) => (
                 <div>
                   <a className="pub-link" href={title.l}>{title.t}</a>
+                  <br />
+                  <br />
+                </div>
+              ))}
+            </div>
+            <br />
+          </div>
+        ))}
+        {publications_downloads.map((pub) => (
+          <div>
+            <div className="pub-wrapper">
+              <b>{pub.year}</b>
+              <br />
+            </div>
+            <div className="pub-wrapper">
+              {pub.papers.map((title) => (
+                <div>
+                  <a className="pub-link" href={title.l} download>{title.t}</a>
                   <br />
                   <br />
                 </div>
