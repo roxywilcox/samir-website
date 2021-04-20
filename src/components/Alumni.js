@@ -1,10 +1,4 @@
-import Rajiv from "../assets/rajiv.jpg";
-import Sheng from "../assets/sheng.jpg";
-import Kanthi from "../assets/kanthi.jpg";
-import Saeed from "../assets/saeed.jpeg";
-import Saba from "../assets/saba.png";
-import Koyel from "../assets/koyel.png";
-import Ioana from "../assets/ioana.jpg";
+
 import { alumniData } from "./data/alumni_data";
 import "./Alumni.css";
 

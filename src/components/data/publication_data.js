@@ -1,17 +1,24 @@
 import Greedy from "../../assets/greedy.ps";
+import PCharles from "../../assets/pcharles.pdf";
+import SabaPaper from '../../assets/sabapaper.pdf';
 
-export const publications = [
+export const first_two_papers = [
     {
         "year": "2020",
         "papers": [{
             "t": "P. Chalermsook, S. Khuller, P. Sukprasert, S. Uniyal. Multi-transversals for Triangles and the Tuza Conjecture. SODA 2020.",
-            "l": "google.com",
+            "l": PCharles,
         },
         {
             "t": "S. Ahmadi, F. Ahmed, J. Dickerson., M. Fuge and S. Khuller. An Algorithm for Multi-Attribute Diverse Matching. IJCAI 2020.",
-            
+            "l": SabaPaper,
         }],
     },
+
+];
+
+export const publications = [
+    
     {
         "year": "2019",
         "papers": [{
