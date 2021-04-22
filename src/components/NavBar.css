@@ -83,7 +83,27 @@ div.dropdown-menu.show {
     align-items: center;
     align-self: center;
   }
+
+  .name {
+    font-size: 36px;
+    margin-left: 2px;
+  }
+
+  .position1 {
+    font-size: 18px;
+    margin-left: 2px;
+  }
+
+  .position2 {
+    font-size: 18px;
+    margin-left: 2px;
+  }
   
+  .school {
+    font-size: 22px;
+    margin-left: 2px;
+  }
+
   /* .name {
     color: black;
     margin-right: 0px;
