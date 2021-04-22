@@ -5,7 +5,7 @@ function Talks() {
   return (
     <div>
       <div className="title-wrapper">
-        <div className="title">Talks</div>
+        <div className="talks-title">Talks</div>
         <br />
         {talksData.map((talk) => (
           <div className="pub-wrapper">
