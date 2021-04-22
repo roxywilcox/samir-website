@@ -6,7 +6,7 @@ function Publications() {
     <div>
       <div class="publications-container">
         <div className="pub-overall-wrapper">
-          <div className="title">Publications</div>
+          <div className="pub-title">Publications</div>
         </div>
         <br />
         {first_two_papers.map((pub) => (

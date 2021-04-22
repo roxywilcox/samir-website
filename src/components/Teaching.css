@@ -1,20 +1,19 @@
 
-
 .course-link {
   color: black;
 }
 
-.title {
+.teaching-title {
   font-family:'Playfair Display', serif;
   font-size: 36px;
   color: black;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .teaching-wrapper {
   margin: 0 auto;
-  width: 700px;
   font-family: 'Playfair Display', serif;
 }
 
@@ -22,14 +21,18 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto;
+  max-width: 800px;
+  grid-template-columns: 160px auto;
   background-color:  #4E2A84;
-  padding: 5px;
+  padding: 1px;
+  font-family: 'Playfair Display', serif;
+  margin: auto;
+  
 }
 
 .grid-item {
   background-color: white;
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  border: 1px solid #4E2A84;
   padding: 20px;
   font-size: 16px;
   text-align: left;

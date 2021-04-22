@@ -14,13 +14,14 @@
   }
   .pub-wrapper {
     margin: 0 auto;
-    width: 800px;
+    display: flex;
+    flex-direction: column;
     font-family: 'Playfair Display', serif;
     font-size: 18px;
     color: black !important;
   }
 
-  .title {
+  .pub-title {
     font-family:'Playfair Display', serif;
     font-size: 36px;
     color: black;
@@ -29,7 +30,6 @@
   }
 
   .title-wrapper {
-    width: 800px;
     margin: 0 auto;
   }
   
