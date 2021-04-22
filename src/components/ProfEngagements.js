@@ -5,10 +5,10 @@ import {profEngagementsData} from "./data/prof_engagements_data";
 function ProfEngagements() {
   return (
     <div>
-      <div className="title">Workshops & Special Issues</div>
-      <div className="phd-container">
+      <div className="prof-e-title">Workshops & Special Issues</div>
+      <div className="prof-e-container">
         {profEngagementsData.map((e) => (
-          <div className="phd-item-container">
+          <div className="prof-e-item-container">
             <br />
             <br />
             <a className="e-link" href={e.link}>

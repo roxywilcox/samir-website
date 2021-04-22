@@ -4,7 +4,7 @@ import { undergradData } from "./data/undergrad_data";
 function Undergrad() {
   return (
     <div>
-      <div className="title">Undergraduate Researchers</div>
+      <div className="undergrad-title">Undergraduate Researchers</div>
 
       <div className="u-container">
         {undergradData.map((undergrad) => (

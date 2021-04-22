@@ -26,7 +26,7 @@
   color: black;
 }
 
-.profile-img {
+.phd-profile-img {
   width: 150px;
   height: 200px;
   object-fit: cover;    
@@ -37,8 +37,12 @@
   font-size: 30px;
 }
 
-.wrapper {
-  margin: 0 auto;
-  width: 800px;
-  font-family: 'Playfair Display', serif;
+
+.phd-title {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-bottom: -5px;
+  margin-top: 40px;
 }

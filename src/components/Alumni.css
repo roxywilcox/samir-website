@@ -26,15 +26,16 @@
     color: black;
   }
 
-  .title {
+  .alumni-title {
     font-family:'Playfair Display', serif;
     font-size: 36px;
     color: black;
     text-align: center;
     margin-bottom: -5px;
+    margin-top: 40px;
   }
 
-  .profile-img {
+  .alumni-profile-img {
     width: 150px;
     height: 200px;
     object-fit: cover;    

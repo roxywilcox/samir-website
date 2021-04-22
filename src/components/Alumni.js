@@ -5,7 +5,7 @@ import "./Alumni.css";
 function Alumni() {
   return (
     <div>
-      <div className="title">
+      <div className="alumni-title">
         Alumni
       </div>
       <div className="alumni-container">
@@ -13,7 +13,7 @@ function Alumni() {
         {alumniData.map((alumni) => (
           <div className="alumni-item-container">
             <a href={alumni.website}>
-              <img src={alumni.img} className="profile-img" alt="prof-pic" />
+              <img src={alumni.img} className="alumni-profile-img" alt="prof-pic" />
             </a>
           
             <div className="alumni-name">{alumni.name}</div>

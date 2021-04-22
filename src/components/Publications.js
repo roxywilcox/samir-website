@@ -5,7 +5,7 @@ function Publications() {
   return (
     <div>
       <div class="publications-container">
-        <div className="title-wrapper">
+        <div className="pub-overall-wrapper">
           <div className="title">Publications</div>
         </div>
         <br />

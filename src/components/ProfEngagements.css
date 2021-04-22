@@ -1,4 +1,39 @@
 
+.prof-e-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.prof-e-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 40px;
+  flex-direction: column;
+  border: 1px lightgray solid;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 10px;
+  color: black;
+}
+
+
+.prof-e-title {
+  font-family:'Playfair Display', serif;
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-bottom: -5px;
+  margin-top: 40px;
+}
 .motwani-img {
   border-radius: 10px;
   margin: 10px;
@@ -13,29 +48,6 @@
 }
 
 .event-link {
-  color: black;
-}
-
-
-.prof-engagements-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding: 30px;
-}
-
-.container {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  max-width: 90px;
-  max-height: 120px;
-  flex-direction: row;
-  border: 1px lightgray solid;
-  text-align: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 18px;
   color: black;
 }
 

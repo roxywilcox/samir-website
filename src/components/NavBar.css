@@ -1,13 +1,13 @@
 html {
   font-family: 'Playfair Display', serif;
 }
-
+/* 
 @media (max-width: 840px) {
-  /* .nav {
+   .nav {
     flex-direction: column;
     justify-self: left;
-  } */
-}
+  } 
+} */
 
 .nav {
   background-color: #4E2A84;
