@@ -3,11 +3,11 @@ import { awardData } from "./data/award_data";
 
 function Bio() {
   return (
-    <div className="wrapper">
+    <div className="samir-bio-wrapper">
 
-      <h1 className="title">Bio</h1>
+      <h1 className="samir-bio-title">Bio</h1>
       <br />
-      <div className="bio-text">
+      <div className="samir-bio-text">
         Samir Khuller received his M.S and Ph.D from Cornell University in 1989
         and 1990, respectively, under the supervision of Vijay Vazirani. He
         spent two years as a Research Associate at the University of Maryland,
@@ -22,7 +22,7 @@ function Bio() {
         Barris Chair for CS.
       </div>
       <br />
-      <div className="bio-text">
+      <div className="samir-bio-text">
         His research interests are in graph algorithms, discrete optimization,
         and computational geometry. He has published about 200 journal and
         conference papers, and several book chapters on these topics. He was an
@@ -38,7 +38,7 @@ function Bio() {
         Mentoring Award.
       </div>
       <br />
-      <div className="bio-text">
+      <div className="samir-bio-text">
         He received the National Science Foundation's Career Development Award,
         several Dept. Teaching Awards, the Dean's Teaching Excellence Award and
         also a CTE-Lilly Teaching Fellowship. In 2003, he and his students were
@@ -52,10 +52,10 @@ function Bio() {
       </div>
       <br />
       <div className="awards-container">
-          <h1 className="title">Awards</h1>
+          <h1 className="awards-title">Awards</h1>
           <br />
           {awardData.map((award) => (
-            <div className="award">{award}</div>
+            <div className="award-item">{award}</div>
           ))}
         </div>
     </div>

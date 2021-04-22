@@ -5,7 +5,7 @@ function Teaching() {
     <div>
     <div className="teaching-container">
       
-      <div className="wrapper">
+      <div className="teaching-wrapper">
         <div className="title">Teaching</div>
         <br />
         <div className="grid-container">

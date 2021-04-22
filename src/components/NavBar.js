@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div className="nav-bar-container">
       <div className="title-card-container">
-        <div className="wrapper">
+        <div className="nav-bar-wrapper">
           <img src={samirPic} className="khuller-image" alt="kuller" />
           <div className="title-wrapper">
             <div className="name">Samir Khuller</div>

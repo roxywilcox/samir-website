@@ -59,7 +59,7 @@ div.dropdown-menu.show {
     margin-bottom: -2px;
   }
   
-  .wrapper {
+  .nav-bar-wrapper {
     display: flex;
     flex-flow: row;
     font-family: 'Playfair Display', serif;

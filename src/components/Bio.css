@@ -1,34 +1,39 @@
 
  
-.wrapper {
+.samir-bio-wrapper {
   margin: 0 auto;
-  width: 800px;
+  display: flex;
   font-family: 'Playfair Display', serif;
 }
 
 
-.title {
+.samir-bio-title {
   font-family:'Playfair Display', serif;
   color: black;
   text-align: center;
   padding: 10px;
 }
 
-.samir-bio {
-    max-width: 800px;
+.awards-title {
+  font-family:'Playfair Display', serif;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+
+.samir-bio-text {
+    display: flex;
 }
 
 
-.bio-text {
+.samir-bio-text {
     color: black;
     font-size: 20px;
     margin-top: -5px;
     text-align: justify;
-    text-justify: inter-word;
 }
 
-.award {
+.award-item {
   font-size: 20px;
-  max-width: 800px;
   padding: 10px;
 }
