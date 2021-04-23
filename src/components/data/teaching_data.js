@@ -1,5 +1,9 @@
 export const teachingData = [
     {
+        "year": "Term",
+        "name": "Course",
+    },
+    {
         "year": "Fall 2020",
         "name": "CS 336: Design & Analysis of Algorithms",
         "link": "https://www.mccormick.northwestern.edu/computer-science/academics/courses/descriptions/336.html",

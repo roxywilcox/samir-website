@@ -30,6 +30,26 @@ import a2000 from "../../assets/gkktz2000.ps";
 import b2000 from "../../assets/kbp2000.ps";
 import c2000 from "../../assets/krw98.ps";
 import d2000 from "../../assets/bistro.ps";
+import a1999 from "../../assets/bkps99.ps";
+import b1999 from "../../assets/krz99.ps";
+import c1999 from "../../assets/khuller99.ps";
+import d1999 from "../../assets/kmn97.ps";
+import a1998 from "../../assets/elections.pdf";
+import b1998 from "../../assets/ghkr98.ps";
+import c1998 from "../../assets/ckr98.ps";
+import d1998 from "../../assets/gk98.ps";
+import e1998 from "../../assets/bgks97.ps";
+import f1998 from "../../assets/gk98b.ps";
+import a1997 from "../../assets/kps97.ps";
+import a1996 from "../../assets/beacons.ps";
+import b1996 from "../../assets/ks96.ps";
+import c1996 from "../../assets/gk96.ps";
+import d1996 from "../../assets/fkkry96.ps";
+
+
+
+
+
 
 
 
@@ -502,7 +522,104 @@ export const publications_downloads = [
                 "l": d2000,
             },
         ]
-    }
+    },
+    {
+        "year": "1999",
+        "papers": [
+            {
+                "t": "Randeep Bhatia, Samir Khuller, Robert Pless and Yoram J. Sussmann. The Full Degree Spanning Tree Problem. 10th Symposium on Discrete Algorithms (SODA), (Jan '99), Baltimore. (short paper). Full version . Networks Vol 36(4), pp. 1--7, (2000) .",
+                "l": a1999,
+
+            },
+            {
+                "t": "Samir Khuller, Balaji Raghavachari and An Zhu. A Uniform Framework for Approximating Weighted Connectivity Problems. 10th Symposium on Discrete Algorithms (SODA), (Jan '99), Baltimore. (short paper).",
+                "l": b1999,
+            },
+            {
+                "t": "Samir Khuller. An O(V^2) algorithm for Single Connectedness. Information Processing Letters Vol 72(3-4), pp. 105--107, (1999) .",
+                "l": c1999,
+
+            },
+            {
+                "t": "Samir Khuller, Anna Moss and Joseph Naor. The Budgeted Maximum Coverage Problem. Information Processing Letters Vol. 70(1), pp. 39--45, (1999) .",
+                "l": d1999,
+
+            },
+        ]
+    },
+    {
+        "year": "1998",
+        "papers": [
+            {
+                "t": "Samir Khuller. A linear time algorithm for Lewis-Carrol's voting system. Unpublished (1998).",
+                "l": a1998,
+
+            },
+            {
+                "t": "Nili Guttmann-Beck, Rafi Hassin, Samir Khuller and Balaji Raghavachari. Approximation Algorithms with Bounded Performance Guarantees for the Clustered Traveling Salesman Problem. 1998 FST&TCS Conference (Madras, India). Algorithmica Vol 28 pp. 422--437, (2000).",
+                "l": b1998,
+            },
+            {
+                "t": "Moses Charikar, Samir Khuller and Balaji Raghavachari. Algorithms for Capacitated Vehicle Routing. 30th Symposium on Theory of Computing (STOC), (May '98), Dallas. SIAM Journal on Computing Vol 31(3), pp. 665--682 (2001).",
+                "l": c1998,
+
+            },
+            {
+                "t": "Sudipto Guha and Samir Khuller. Greedy Strikes Back: Improved Algorithms for Facility Location. 9th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), (Jan '98), San Francisco, CA. Journal of Algorithms Vol 31(1) (1999), pp. 228-248.",                
+                "l":d1998,
+
+            },
+            {
+                "t": "Randeep Bhatia, Sudipto Guha, Samir Khuller and Yoram J. Sussmann. Facility Location with Dynamic Distance Functions. 6th Scandinavian Workshop on Algorithm Theory (SWAT), (Jul '98), Stockholm, Sweden. Invited to Journal of Combinatorial Optimization Vol 2 (1998) pp. 199--217.",
+                "l":e1998,
+            },
+            {
+                "t": "Sudipto Guha and Samir Khuller. Improved Methods for Approximating Node Weighted Steiner Trees and Connected Dominating Sets. 1998 FST&TCS Conference (Madras, India). Information and Computation Vol 150, pp. 57--74 (1999).",
+                "l":f1998,
+
+            },
+        ]
+    },
+    {
+        "year": "1997",
+        "papers": [
+            {
+                "t": "Samir Khuller, Robert Pless and Yoram J. Sussmann. Fault Tolerant K-Center Problems. 3rd Italian Conference on Algorithms and Complexity (CIAC), (Mar '97), Rome, Italy. Theoretical Computer Science Vol 242 (1-2), pp. 237-245, (2000).",
+                "l":a1997,
+
+            },
+           
+        ]
+    },
+    {
+        "year": "1996",
+        "papers": [
+            {
+                "t": "S. Khuller, B. Raghavachari and A. Rosenfeld. Landmarks in Graphs Discrete Applied Mathematics, Vol. 70 (3), pp. 217-229 (1996).",
+                "l": a1996,
+
+            },
+            {
+                "t": "Samir Khuller and Yoram J. Sussmann. The Capacitated K-Center Problem. 4th Annual European Symposium on Algorithms (ESA), (Sep '96), Barcelona, Spain. SIAM Journal on Discrete Mathematics Vol 13(3), pp. 403--418, (2000).",
+                "l":b1996,
+            },
+            {
+                "t": "Sudipto Guha and Samir Khuller. Approximation Algorithms for Connected Dominating Sets. 4th Annual European Symposium on Algorithms (ESA), (Sep '96), Barcelona, Spain. Algorithmica Vol 20 (1998), pp. 374--387.",
+                "l":c1996,
+
+            },
+            {
+                "t": "Sandor P. Fekete, Samir Khuller, Monika Klemmstein, Balaji Raghavachari and Neal Young. A Network-Flow Technique for Finding Low-Weight Bounded-Degree Spanning Trees. 5th Integer Programming and Combinatorial Optimization Conference (IPCO), (June '96), Vancouver, Canada. Journal of Algorithms Vol 24(2) (1997) pp 310--324.",
+                "l":d1996,
+
+            },
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young. On Strongly Connected Digraphs with Bounded Cycle Length. Discrete Applied Mathematics, Vol 69 (3) (1996) pp. 281--289.",
+                "l": "",
+
+            }
+        ]
+    },
 ];
 
 

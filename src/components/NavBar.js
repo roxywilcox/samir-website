@@ -1,6 +1,6 @@
 import samirPic from "../assets/khuller-samir.jpg";
 import "./NavBar.css";
-import { NavDropdown, Nav, Navbar } from "react-bootstrap";
+import { NavDropdown} from "react-bootstrap";
 
 function NavBar() {
   return (
