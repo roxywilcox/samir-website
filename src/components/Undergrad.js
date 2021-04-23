@@ -9,11 +9,11 @@ function Undergrad() {
       <div className="u-container">
         {undergradData.map((undergrad) => (
           <div className="u-item-container">
-            <br/>
-            <br/>
+            <br />
+            <br />
             <img className="pictured" src={undergrad.img} alt="prof-pic" />
-            <br/>
-            <br/>
+            <br />
+            <br />
             <div className="u-name">{undergrad.name}</div>
           </div>
         ))}
@@ -21,7 +21,14 @@ function Undergrad() {
       <br />
       <div className="undergrad-wrapper">
         <div>
-          Not pictured: An Zhu Ph.D (Stanford) (Honors Thesis Title: A Uniform
+          Not pictured: An Zhu, Srinivas Kashyap, Colin Dixon, Jessica Chang,
+          Mitchell Katz, Matt McCutchen, Philip Anderson, Deonna Hodges, Naomi
+          Wilcox, Alexa Greenberg, Aboli Kumthekar, Chunxing Yin, Megan Chao,
+          Riley Murray, Katherine Scola, Ben Eggers, Prayaag Venkat, Kevin Sun,
+          Pascal Sturmfels, Jingling Li, Tu Luan, Xi Chen, Frederic Koehler, Sam
+          Estep, Laurel Newman, Ariel Fromm, Galen Stetsyuk, Mikhail Sorokin,
+          Raghav Gupta.
+          {/* Not pictured: An Zhu Ph.D (Stanford) (Honors Thesis Title: A Uniform
           Framework for Weighted Connectivity Problems (Dorfman Award)). Winner
           of a Bell Labs fellowship,NSF fellowship. Currently at Google.,
           Srinivas Kashyap Ph.D (Maryland) (Honors Thesis Title: Algorithms for
@@ -55,7 +62,7 @@ function Undergrad() {
           Tu Luan (Bryn Mawr). Ph.D. student at UMD., Xi Chen (UMD). Currently a
           graduate student at Georgia Tech., Frederic Koehler (Princeton). Now a
           graduate student at MIT., Sam Estep, Laurel Newman, Ariel Fromm, Galen
-          Stetsyuk, Mikhail Sorokin, Raghav Gupta
+          Stetsyuk, Mikhail Sorokin, Raghav Gupta */}
         </div>
 
         {/* {undergradData2.map((undergrad) => (
@@ -67,7 +74,10 @@ function Undergrad() {
       ))} */}
         <br />
         <br />
+
       </div>
+      <br/>
+      <br/>
     </div>
   );
 }

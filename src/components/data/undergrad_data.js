@@ -1,5 +1,4 @@
 import Allie from "../../assets/allie.png";
-import Emoji from "../../assets/emoji2.jpg";
 import Elissa from "../../assets/elissa.png";
 import Svet from "../../assets/svet.jpg";
 
@@ -16,14 +15,7 @@ export const undergradData = [
     name: "Svetlana Shargorodskaya",
     img: Svet
   },
-  {
-    name: "name1",
-    img: Emoji
-  },
-  {
-    name: "name1",
-    img: Emoji
-  },
+  
 ];
 // export const undergradData =
 // [
