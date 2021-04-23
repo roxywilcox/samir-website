@@ -45,6 +45,36 @@ import a1996 from "../../assets/beacons.ps";
 import b1996 from "../../assets/ks96.ps";
 import c1996 from "../../assets/gk96.ps";
 import d1996 from "../../assets/fkkry96.ps";
+import a1995 from "../../assets/vital.ps";
+import b1995 from "../../assets/cp95.ps";
+import c1995 from "../../assets/kr95.ps";
+import d1995 from "../../assets/bkn95.ps";
+import e1995 from "../../assets/krr95.ps";
+import a1994 from "../../assets/con.ps";
+import b1994 from "../../assets/kry94b.ps";
+import c1994 from "../../assets/kry94a.ps";
+import a1993 from "../../assets/lattice.pdf";
+import b1993 from "../../assets/kry93b.ps";
+import c1993 from "../../assets/kry93a.ps";
+import d1993 from "../../assets/ipco94.pdf";
+import a1992 from "../../assets/tree.pdf";
+import b1992 from "../../assets/stoc92.pdf";
+import c1992 from "../../assets/aug.pdf";
+import b1991 from "../../assets/icalp91.pdf";
+import c1991 from "../../assets/cp.pdf";
+import d1991 from "../../assets/self.pdf";
+import a1990 from "../../assets/flow.pdf";
+import c1990 from "../../assets/tri.pdf";
+import a1989 from "../../assets/wads89.pdf";
+import c1989 from "../../assets/focs89b.pdf";
+
+
+
+
+
+
+
+
 
 
 
@@ -619,6 +649,197 @@ export const publications_downloads = [
 
             }
         ]
+    },
+    {
+        "year": "1995",
+        "papers": [
+            {
+                "t": "A. Bar-Noy, S. Khuller and B. Schieber. The complexity of finding most vital arcs and nodes. CS-TR-3539. Technical Report, University of Maryland (1995).",
+                "l": a1995,
+
+            },
+            {
+                "t": "S. Khuller and Y. Matias. A Simple Randomized Sieve Algorithm for the Closest-Pair Problem Information and Computation, Vol 188 (1), pp. 34--37, (1995).",
+                "l":b1995,
+
+            },
+            {
+                "t": "Samir Khuller and Balaji Raghavachari. Improved Approximation Algorithms for Uniform Connectivity Problems. 27th Symposium on Theory of Computing (STOC), (May '95), Las Vegas. Journal of Algorithms Vol 21(2) (1996) pp. 434--450.",
+                "l":c1995,
+
+            },
+            {
+                "t": "Randeep Bhatia, Samir Khuller and Joseph (Seffi) Naor. The Loading Time Scheduling Problem. 36th Conference on Foundations of Computer Science (FOCS), (Oct '95), Milwaukee. Journal of Algorithms Vol 36(1), pp. 1--33 (2000).",
+                "l":d1995,
+
+            },
+            {
+                "t": "S. Khuller, A. Rosenfeld and E. Rivlin. Graphbots: Mobility in Discrete Spaces . 22nd International Colloquium on Automata, Languages and Programming Conference (ICALP), (July '95), Szeged, Hungary. IEEE Transactions on Systems, Man and Cybernetics Vol 28(1) (1998) pp 29-38.",
+                "l":e1995,
+
+            },
+        ]
+
+    },
+    {
+        "year": "1994",
+        "papers": [
+            {
+                "t": "S. Khuller and U. Vishkin. On the Parallel Complexity of Digraph Reachability. Information Processing Letters Vol 52 (5), pp. 239--241, (1994) .",
+                "l":a1994,
+
+            },
+            {
+                "t": "Samir Khuller, Balaji Raghavachari and Neal Young. Approximating the Minimum Equivalent Digraph . ACM-SIAM Symp. on Discrete Algorithms (SODA) (Jan '94). SIAM Journal on Computing, Vol 24 (4) pp. 859--872, (1995).",
+                "l":b1994,
+
+            },
+            {
+                "t": "Samir Khuller, Balaji Raghavachari and Neal Young. Low Degree Spanning Trees of Small Weight . 26th Symposium on Theory of Computing (STOC), (May '94), Montreal. SIAM Journal on Computing Vol 25 (2) pp. 355--368, (1996).",              
+                "l":c1994,
+
+            },
+            
+        ]
+    },
+    {
+        "year": "1993",
+        "papers":[
+            {
+                "t": "S. Khuller, J. Naor and P. Klein. The Lattice Structure of Flow in Planar Graphs. SIAM Journal of Discrete Mathematics, Vol 6 (3) pp. 477--490, (1993).",
+                "l": a1993,
+
+            },
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young. Designing Multi-Commodity Flow Trees . Workshop on Algorithms and Data Structures (WADS), (Aug '93), Montreal, Canada. Information Processing Letters, Vol 50(1) (1994) pp. 49--55.",
+                "l": b1993,
+
+            },
+            {
+                "t": "S. Khuller, B. Raghavachari and N. Young, Balancing Minimum Spanning and Shortest Path Trees. 4th Annual ACM-SIAM Symposium on Discrete Algorithms (SODA), (Jan '93), Austin. Algorithmica, Vol 14(4) (1995) pp. 305--321.",
+                "l": c1993,
+
+            },
+            {
+                "t": "S. Khuller, U. Vishkin and N. Young. A Primal Dual Parallel Approximation Technique Applied to Weighted Set and Vertex Cover. 1993 IPCO Conference (Erice, Italy). Full version in Journal of Algorithms, Vol 17(2): 280--289, (1994).",
+                "l": d1993,
+
+            },
+        ]
+
+    },
+    {
+        "year": "1992",
+        "papers":[
+            {
+                "t": "S. Khuller and B. Schieber. On Independent Spanning Trees. Information Processing Letters, Vol 42(6):321--323 (1992).",
+                "l":a1992,
+
+            },
+            {
+                "t": "S. Khuller and U. Vishkin. Biconnectivity Approximations and Graph Carvings. 1992 STOC (Victoria). Full version in Journal of the ACM , Vol 41(2):214--235 (1994).",
+                "l":b1992,
+
+            },
+            {
+                "t": "S. Khuller and R. Thurimella. Approximation Algorithms for Graph Augmentation. 1992 ICALP (Wien). Full version in Journal of Algorithms, Vol 14(2):214--225 (1993).",
+                "l":c1992,
+
+            },
+            {
+                "t": "A. Aggarwal, A. Bar-Noy, S. Khuller, D. Kravets and B. Schieber. Efficient Minimum Cost Matching Using Quadrangle Inequality . 1992 FOCS (Pittsburgh). Full version in Journal of Algorithms, Vol 19(1): 116--143 (1995).",
+                "l": "",
+
+            },
+        ]
+
+    },
+    {
+        "year": "1991",
+        "papers":[
+            {
+                "t": "E. Arkin, S. Khuller and J. Mitchell. Geometric Knapsack Problems. 1991 WADS Conference, Ottawa. Full version in Algorithmica, Vol 10: 399--427 (1993).",
+                "l": "",
+
+            },
+            {
+                "t": "S. Khuller, S. Mitchell and V. Vazirani. Online algorithms for weighted matchings and stable marriages . 1991 ICALP (Madrid). Full version in Theoretical Computer Science, Vol 127 (2): 255--267 (1994).",
+                "l":b1991,
+
+            },
+            {
+                "t": "S. Khuller and Y. Matias. A simple randomized sieve algorithm for the closest pair problem . 1991 CCCG Conference (Vancouver). Full version in Information and Computation, Vol 188(1):34--37 (1995).",
+                "l":c1991,
+
+            },
+            {
+                "t": "S. Khuller and V. Vazirani. Planar Graph Coloring is not Self-Reducible, assuming P # NP. Theoretical Computer Science, VOl 88(1): 183--190 (1991).",
+                "l":d1991,
+
+
+            },
+        ]
+
+    },
+    {
+        "year": "1990",
+        "papers":[
+            {
+                "t": "S. Khuller and J. Naor. Flow in Planar Graphs with Vertex Capacities. 1990 IPCO Conference (Waterloo). Full version in Algorithmica (Special Issue on Network Flows), Vol 11:200-225 (1994).",
+                "l":a1990,
+
+            },
+            {
+                "t": "S. Khuller. Coloring algorithms for K5-minor free graphs. Information Processing Letters, Vol 33 (4):203--208, (1990).",
+                "l": "",
+
+            },
+            {
+                "t": "S. Khuller and J. Mitchell. On a triangle counting problem. Information Processing Letters, Vol 33 (6):319--322, (1990)",
+                "l":c1990,
+
+            },
+           
+        ]
+
+    },
+    {
+        "year": "1989",
+        "papers":[
+            {
+                "t": "S. Khuller. Parallel Algorithms for the Subgraph Homeomorphism problem. 1989 WADS Conference, Ottawa, Canada.",
+                "l": a1989,
+
+            },
+            {
+                "t": "S. Khuller, S. Mitchell and V. Vazirani. Processor Efficient Parallel Algorithms for the Two Disjoint Paths Problem and for Finding a Kuratowski Homeomorph. 1989 FOCS (Raleigh). Full version in SIAM J. on Computing, Vol 21(3):486--506 (1992).",
+                "l": "",
+
+            },
+            {
+                "t": "S. Khuller and B. Scheiber. Efficient Parallel Algorithms for Testing Connectivity and Finding Disjoint s-t Paths in Graphs. 1989 FOCS (Raleigh). Full version in SIAM J. on Computing, Vol 20(2):352--375 (1991).",
+                "l":c1989,
+
+            },
+            {
+                "t": "S. Khuller. On Computing Graph Closures. Information Processing Letters, Vol 31 (5):249--255 (1989).",
+                "l": "",
+
+            },
+        ]
+
+    },
+    {
+        "year": "1988",
+        "papers":[
+            {
+                "t": "S. Khuller. Extending Planar Graph Algorithms to K_3,3 Graphs. FSTTCS 1988, India. Full version in Information and Computation, Vol 80(1):13--25 (1990).",
+                "l": "",
+
+            },
+            
+        ]
+
     },
 ];
 
