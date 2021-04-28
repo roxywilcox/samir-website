@@ -65,6 +65,7 @@ div.dropdown-menu.show {
   padding: 10px;
   align-items: center;
   justify-content: center;
+  margin: 0 220px;
 }
 
 .nav-bar-header-wrapper div {

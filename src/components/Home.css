@@ -6,13 +6,41 @@
   color: black;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 10px;
 }
+
+.blurb-container {
+  display:flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.blurb {
+  font-family:'Playfair Display', serif;
+  font-size: 20px;
+  color: black;
+  text-align: justify;
+  justify-self: center;
+
+}
+
+
 
 .contact {
   font-family:'Playfair Display', serif;
   font-size: 20px;
   color: black;
   text-align: center;
+  padding-bottom: 10px;
 
 }
 
+.contact-container {
+  display:flex;
+  justify-content: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+
+}
