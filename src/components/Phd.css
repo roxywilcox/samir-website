@@ -21,7 +21,7 @@
   flex-direction: column;
   border: 1px lightgray solid;
   text-align: center;
-  font-family: 'Playfair Display', serif;
+  
   font-size: 10px;
   color: black;
 }
@@ -39,7 +39,7 @@
 
 
 .phd-title {
-  font-family:'Playfair Display', serif;
+  
   font-size: 36px;
   color: black;
   text-align: center;

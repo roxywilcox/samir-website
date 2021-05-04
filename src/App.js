@@ -1,4 +1,3 @@
-import "./App.css";
 import NavBar from "./components/NavBar";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -25,7 +24,7 @@ function App() {
             of them to render at a time
           */}
       <Switch>
-        <Route path="/home">
+      <Route exact path="/">
           <Home />
         </Route>
         <Route path="/teaching">

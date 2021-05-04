@@ -19,7 +19,7 @@ function NavBar() {
         </div>
       </div>
       <div className="nav">
-        <a href="/home">Home</a>
+        <a href="/">Home</a>
         <a href="/teaching">Teaching</a>
         <NavDropdown title="Students" id="basic-nav-dropdown">
           <NavDropdown.Item className="dropdown-item" href="/alumni">Alumni</NavDropdown.Item>
@@ -31,24 +31,6 @@ function NavBar() {
         <a href="/talks">Talks</a>
         <a href="/bio">Bio</a>
       </div>
-      {/* <Navbar expand="lg" variant="dark" className="top-nav justify-content-center">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto" id="nav-container">
-          <Nav.Link href="/home">Home</Nav.Link>
-          <Nav.Link href="/teaching">Teaching</Nav.Link>
-            <NavDropdown title="Students" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/alumni">Alumni</NavDropdown.Item>
-              <NavDropdown.Item href="/phd">PhD Students</NavDropdown.Item>
-              <NavDropdown.Item href="/undergrad">Undergraduates</NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="/profEngagements">Professional Engagements</Nav.Link>
-            <Nav.Link href="/publications">Publications</Nav.Link>
-            <Nav.Link href="/talks">Talks</Nav.Link>
-            <Nav.Link href="/bio">Bio</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar> */}
     </div>
   );
 }

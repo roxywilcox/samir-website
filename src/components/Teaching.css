@@ -4,7 +4,7 @@
 }
 
 .teaching-title {
-  font-family:'Playfair Display', serif;
+  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -12,22 +12,24 @@
   margin-bottom: 20px;
 }
 
-.teaching-wrapper {
-  margin: 0 auto;
-  font-family: 'Playfair Display', serif;
+.teaching-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
 }
 
-  
-
 .grid-container {
-  display: grid;
+  border: 1px solid #4E2A84;
   max-width: 800px;
+}
+
+.grid-item-container {
+  display: grid;
   grid-template-columns: 130px auto;
-  background-color:  #4E2A84;
-  padding: 1px;
-  font-family: 'Playfair Display', serif;
-  margin: auto;
   
+  margin: auto;
 }
 
 .grid-item {
@@ -38,6 +40,10 @@
   text-align: left;
 }
 
+.grid-item-container:first-child * {
+  font-weight: bold;
+}
+
 #grid-title{
-  font-weight: bolder;
+  font-weight: bold;
 }

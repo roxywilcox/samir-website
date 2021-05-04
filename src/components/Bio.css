@@ -3,12 +3,12 @@
 .samir-bio-wrapper {
   margin: 0 auto;
   max-width: 800px;
-  font-family: 'Playfair Display', serif;
+  
 }
 
 
 .samir-bio-title {
-  font-family:'Playfair Display', serif;
+  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -17,7 +17,7 @@
 }
 
 .awards-title {
-  font-family:'Playfair Display', serif;
+  
   color: black;
   text-align: center;
   padding: 10px;

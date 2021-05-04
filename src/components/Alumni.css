@@ -21,13 +21,12 @@
     flex-direction: column;
     border: 1px lightgray solid;
     text-align: center;
-    font-family: 'Playfair Display', serif;
     font-size: 18px;
     color: black;
   }
 
   .alumni-title {
-    font-family:'Playfair Display', serif;
+    
     font-size: 36px;
     color: black;
     text-align: center;

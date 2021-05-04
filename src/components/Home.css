@@ -1,7 +1,7 @@
 
 
 .home-title {
-  font-family:'Playfair Display', serif;
+  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -17,7 +17,7 @@
   padding-bottom: 10px;
 }
 .blurb {
-  font-family:'Playfair Display', serif;
+  
   font-size: 20px;
   color: black;
   text-align: justify;
@@ -28,7 +28,7 @@
 
 
 .contact {
-  font-family:'Playfair Display', serif;
+  
   font-size: 20px;
   color: black;
   text-align: center;

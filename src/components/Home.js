@@ -15,7 +15,7 @@ function Home() {
           worked in these topics.
         </div>
       </div>
-      <div className="home-title">Current Work / About Me</div>
+      <div className="home-title">Current Work</div>
       <div className="blurb-container">
         <div className="blurb">
           From 2003-2008, I was the Assoc. Chair for Graduate Studies in

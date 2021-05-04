@@ -1,5 +1,5 @@
 html {
-  font-family: "Playfair Display", serif;
+  
 }
 /* 
 @media (max-width: 840px) {
@@ -16,12 +16,13 @@ html {
   justify-content: center;
   align-items: center;
   color: white;
+  padding: 10px;
 }
 
 .nav a {
   margin: 0 10px;
   color: white;
-  font-family: "Playfair Display", serif;
+  
   font-size: 22px;
 }
 
@@ -46,7 +47,7 @@ div.dropdown-menu.show {
 
 .nav-link {
   color: white !important;
-  font-family: "Playfair Display", serif;
+  
   font-size: 24px;
 }
 
@@ -61,11 +62,11 @@ div.dropdown-menu.show {
 .nav-bar-header-wrapper {
   display: flex;
   flex-flow: row;
-  font-family: "Playfair Display", serif;
+  
   padding: 10px;
   align-items: center;
   justify-content: center;
-  margin: 0 220px;
+  /* margin: 0 220px; */
 }
 
 .nav-bar-header-wrapper div {
@@ -80,6 +81,7 @@ div.dropdown-menu.show {
 
 .title-card-container {
   display: flex;
+  justify-content: center;
   align-items: center;
   align-self: center;
 }
@@ -102,4 +104,16 @@ div.dropdown-menu.show {
 .school {
   font-size: 22px;
   margin-left: 2px;
+}
+
+#basic-nav-dropdown {
+  margin: 0 10px;
+  padding: 0;
+}
+
+@media (max-width: 850px) {
+  .nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }

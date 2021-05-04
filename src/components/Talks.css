@@ -1,7 +1,7 @@
 
 
 .talks-title {
-  font-family:'Playfair Display', serif;
+  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -10,7 +10,7 @@
 }
 
 .talk-title {
-  font-family: 'Playfair Display', serif;
+  
   font-size: 24px;
   color: black !important;
   text-align: center;
@@ -18,7 +18,7 @@
 }
 
 .talk-conference {
-  font-family: 'Playfair Display', serif;
+  
   font-size: 18px;
   color: black !important;
   text-align: center;
@@ -28,7 +28,7 @@
 .pub-wrapper {
   margin: 0 auto;
   max-width: 800px;
-  font-family: 'Playfair Display', serif;
+  
   font-size: 18px;
   color: black !important;
 }
