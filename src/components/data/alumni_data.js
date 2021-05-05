@@ -82,7 +82,7 @@ export const alumniData =
   {
     "name": "Saeed Alaei",
     "bio":"First position: Postdoc at Cornell University. Now at Google Research (Mountain View)",
-    "thesis": "Mechanism design with general utilities",
+    "thesis": "Mechanism Design with General Utilities",
     "graduation_date": "Aug 2012",
     "img": Saeed,
     "website": "http://www.cs.cornell.edu/~saeed/",
@@ -99,7 +99,7 @@ export const alumniData =
   {
     "name": "Jian Li",
     "bio":"IIIS, Tsinghua University.",
-    "thesis": "Decision making under Uncertainty",
+    "thesis": "Decision Making Under Uncertainty",
     "graduation_date": "Aug 2011",
     "img": Tsinghua,
     "website": "http://people.iiis.tsinghua.edu.cn/~jianli/",
@@ -108,7 +108,7 @@ export const alumniData =
   {
     "name": "Azarakhsh Malekian",
     "bio": "First job: Postdoc at Northwestern. Currently at U. Toronto.",
-    "thesis": "Combinatorial problems in online advertising",
+    "thesis": "Combinatorial Problems in Online Advertising",
     "graduation_date": "Dec 2009",
     "img": Azarakhsh,
     "website": "https://sites.google.com/site/azarakhshm/",
@@ -116,7 +116,7 @@ export const alumniData =
   {
     "name": "Srinivas Kashyap",
     "bio": "First job: Postdoc at IBM. Currently at Google.",
-    "thesis": "Algorithms for data placement, reconfiguration and monitoring in storage networks",
+    "thesis": "Algorithms for Data Placement, Reconfiguration and Monitoring in Storage Networks",
     "graduation_date": "Aug 2007",
     "img": Srinivas,
     "website": "https://www.cs.umd.edu/community/alumnus/srinivas-kashyap",
@@ -147,7 +147,7 @@ export const alumniData =
   },
   {
     "name": "Michael Roberts",
-    "thesis": "A preprocessor for shotgun assembly of large genomes",
+    "thesis": "A Preprocessor for Shotgun Assembly of Large Genomes",
     "graduation_date": "2003",
     "img": Michael,
     "website": "https://www.linkedin.com/in/michael-roberts-81594a56/",

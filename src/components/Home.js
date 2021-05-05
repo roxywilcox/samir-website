@@ -2,7 +2,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
       <div className="home-title">Research Interests</div>
       <div className="blurb-container">
         <div className="blurb">

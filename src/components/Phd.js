@@ -3,7 +3,7 @@ import { phdData } from "./data/phd_data";
 
 function Phd() {
   return (
-    <div>
+    <div className="phd-overall-container">
       <div className="phd-title">PhD Students</div>
       <div className="phd-container">
         {phdData.map((phd) => (

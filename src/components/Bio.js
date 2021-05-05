@@ -3,9 +3,10 @@ import { awardData } from "./data/award_data";
 
 function Bio() {
   return (
-    <div className="samir-bio-wrapper">
+    <div className="samir-bio-container">
+    <div>
 
-      <h1 className="samir-bio-title">Bio</h1>
+      <div className="samir-bio-title">Biography</div>
       <br />
       <div className="samir-bio-text">
         Samir Khuller received his M.S and Ph.D from Cornell University in 1989
@@ -52,12 +53,13 @@ function Bio() {
       </div>
       <br />
       <div className="awards-container">
-          <h1 className="awards-title">Awards</h1>
+          <div className="awards-title">Awards</div>
           <br />
           {awardData.map((award) => (
             <div className="award-item">{award}</div>
           ))}
-        </div>
+      </div>
+    </div>
     </div>
   );
 }

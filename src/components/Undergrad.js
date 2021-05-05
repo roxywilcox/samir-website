@@ -3,7 +3,7 @@ import { undergradData } from "./data/undergrad_data";
 
 function Undergrad() {
   return (
-    <div>
+    <div className="undergrad-container">
       <div className="undergrad-title">Undergraduate Researchers</div>
 
       <div className="u-container">

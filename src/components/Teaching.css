@@ -1,10 +1,12 @@
-
 .course-link {
   color: black;
 }
 
+.course-link:hover {
+  color: #4e2a84;
+}
+
 .teaching-title {
-  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -21,20 +23,20 @@
 }
 
 .grid-container {
-  border: 1px solid #4E2A84;
+  border: 1px solid #4e2a84;
   max-width: 800px;
 }
 
 .grid-item-container {
   display: grid;
   grid-template-columns: 130px auto;
-  
+
   margin: auto;
 }
 
 .grid-item {
   background-color: white;
-  border: 1px solid #4E2A84;
+  border: 1px solid #4e2a84;
   padding: 20px;
   font-size: 16px;
   text-align: left;
@@ -44,6 +46,6 @@
   font-weight: bold;
 }
 
-#grid-title{
+#grid-title {
   font-weight: bold;
 }

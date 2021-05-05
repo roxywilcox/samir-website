@@ -4,7 +4,7 @@ import "./Alumni.css";
 
 function Alumni() {
   return (
-    <div>
+    <div className="alumni-overall-container">
       <div className="alumni-title">
         Alumni
       </div>

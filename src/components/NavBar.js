@@ -29,7 +29,7 @@ function NavBar() {
         <a href="/profEngagements">Professional Engagements</a>
         <a href="/publications">Publications</a>
         <a href="/talks">Talks</a>
-        <a href="/bio">Bio</a>
+        <a href="/bio">Biography</a>
       </div>
     </div>
   );

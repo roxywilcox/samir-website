@@ -1,35 +1,33 @@
+.publications-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+  max-width: 800px;
+}
 
+.pub-link {
+  color: black;
+}
 
-  a:link {
-    color: black;
-  }
-  a:hover {
-    color: red;
-  }
+.pub-link:hover {
+  color: #4e2a84;
+}
 
-  
+.pub-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
 
-  .pub-link {
-    color: black;
-  }
-  .pub-wrapper {
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    
-    font-size: 18px;
-    color: black !important;
-  }
+.pub-title {
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
 
-  .pub-title {
-    
-    font-size: 36px;
-    color: black;
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .title-wrapper {
-    margin: 0 auto;
-  }
-  
+.title-wrapper {
+  margin: 0 auto;
+}

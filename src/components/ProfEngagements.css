@@ -1,3 +1,9 @@
+.prof-e-overall-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+}
 
 .prof-e-container {
   display: flex;
@@ -20,14 +26,12 @@
   flex-direction: column;
   border: 1px lightgray solid;
   text-align: center;
-  
+
   font-size: 10px;
   color: black;
 }
 
-
 .prof-e-title {
-  
   font-size: 36px;
   color: black;
   text-align: center;
@@ -62,6 +66,10 @@
 .prof-e-img {
   width: 200px;
   height: 200px;
-  object-fit: cover;    
+  object-fit: cover;
   border-radius: 5px;
+}
+
+.e-link:hover {
+  color: #4e2a84;
 }

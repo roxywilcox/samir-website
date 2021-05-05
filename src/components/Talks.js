@@ -3,13 +3,12 @@ import { talksData } from "./data/talks_data";
 
 function Talks() {
   return (
-    <div>
-      <div className="title-wrapper">
+    <div className="talks-container">
         <div className="talks-title">Talks</div>
         <br />
         {talksData.map((talk) => (
-          <div className="pub-wrapper">
-            <a href={talk.slides} download>
+          <div className="talk-wrapper">
+            <a className="talk-link" href={talk.slides} download>
               <div className="talk-title">{talk.title}</div>
             </a>
 
@@ -17,7 +16,6 @@ function Talks() {
             <br />
           </div>
         ))}
-      </div>
     </div>
   );
 }

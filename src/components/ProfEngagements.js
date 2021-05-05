@@ -4,7 +4,7 @@ import {profEngagementsData} from "./data/prof_engagements_data";
 
 function ProfEngagements() {
   return (
-    <div>
+    <div className="prof-e-overall-container">
       <div className="prof-e-title">Workshops & Special Issues</div>
       <div className="prof-e-container">
         {profEngagementsData.map((e) => (

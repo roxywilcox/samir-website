@@ -1,47 +1,50 @@
+.alumni-overall-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+}
 
+.alumni-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+}
 
-  .alumni-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 30px;
-  }
+.alumni-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  min-width: 400px;
+  min-height: 400px;
+  padding: 20px;
+  margin: 40px;
+  flex-direction: column;
+  border: 1px lightgray solid;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
 
-  .alumni-item-container {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    width: 400px;
-    height: 400px;
-    min-width: 400px;
-    min-height: 400px;
-    padding: 20px;
-    margin: 40px;
-    flex-direction: column;
-    border: 1px lightgray solid;
-    text-align: center;
-    font-size: 18px;
-    color: black;
-  }
+.alumni-title {
+  font-size: 36px;
+  color: black;
+  text-align: center;
+  margin-bottom: -5px;
+  margin-top: 40px;
+}
 
-  .alumni-title {
-    
-    font-size: 36px;
-    color: black;
-    text-align: center;
-    margin-bottom: -5px;
-    margin-top: 40px;
-  }
+.alumni-profile-img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+}
 
-  .alumni-profile-img {
-    width: 150px;
-    height: 200px;
-    object-fit: cover;    
-    border-radius: 5px;
-  }
-
-  .alumni-name {
-    font-size: 30px;
-    font-weight: bold;
-  }
+.alumni-name {
+  font-size: 30px;
+}

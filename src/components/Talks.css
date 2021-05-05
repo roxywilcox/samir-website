@@ -1,35 +1,41 @@
-
+.talks-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  flex-direction: column;
+}
 
 .talks-title {
-  
   font-size: 36px;
   color: black;
   text-align: center;
-  margin-bottom: 10px;
   margin-top: 40px;
 }
 
 .talk-title {
-  
   font-size: 24px;
   color: black !important;
   text-align: center;
-
 }
 
 .talk-conference {
-  
   font-size: 18px;
   color: black !important;
   text-align: center;
-
 }
 
-.pub-wrapper {
+.talk-wrapper {
   margin: 0 auto;
   max-width: 800px;
-  
+
   font-size: 18px;
   color: black !important;
 }
 
+.talk-link {
+  color: black;
+}
+
+.talk-link:hover {
+  color: #4e2a84;
+}
