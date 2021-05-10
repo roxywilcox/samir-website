@@ -68,6 +68,6 @@ function Publications() {
       
     </div>
   );
-}
+} 
 
 export default Publications;

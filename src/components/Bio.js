@@ -61,7 +61,7 @@ function Bio() {
       </div>
     </div>
     </div>
-  );
+  ); 
 }
 
 export default Bio;
