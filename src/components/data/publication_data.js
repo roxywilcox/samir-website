@@ -91,22 +91,20 @@ import c1989 from "../../assets/focs89b.pdf";
 
 
 
-export const first_two_papers = [
-    {
-        "year": "2020",
-        "papers": [{
-            "t": "P. Chalermsook, S. Khuller, P. Sukprasert, S. Uniyal. Multi-transversals for Triangles and the Tuza Conjecture. SODA 2020.",
-            "l": PCharles,
-        },
-        {
-            "t": "S. Ahmadi, F. Ahmed, J. Dickerson., M. Fuge and S. Khuller. An Algorithm for Multi-Attribute Diverse Matching. IJCAI 2020.",
-            "l": SabaPaper,
-        }],
-    },
-
-];
 
 export const publications = [
+
+    {
+                "year": "2020",
+                "papers": [{
+                    "t": "P. Chalermsook, S. Khuller, P. Sukprasert, S. Uniyal. Multi-transversals for Triangles and the Tuza Conjecture. SODA 2020.",
+                    "l": PCharles,
+                },
+                {
+                    "t": "S. Ahmadi, F. Ahmed, J. Dickerson., M. Fuge and S. Khuller. An Algorithm for Multi-Attribute Diverse Matching. IJCAI 2020.",
+                    "l": SabaPaper,
+                }],
+    },
     
     {
         "year": "2019",
@@ -392,10 +390,7 @@ export const publications = [
             
         }
     ]
-    }
-];
-
-export const publications_downloads = [
+    },
     {
         "year": "2005",
         "papers": [
@@ -842,5 +837,7 @@ export const publications_downloads = [
 
     },
 ];
+
+
 
 
