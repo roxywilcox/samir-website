@@ -49,10 +49,16 @@ function App() {
         <Route path="/publications">
           <Publications />
         </Route>
+        <Route path="/publications#before2000">
+          <Publications />
+        </Route>
         <Route path="/talks">
           <Talks />
         </Route>
         <Route path="/bio">
+          <Bio />
+        </Route>
+        <Route path="/bio#awards">
           <Bio />
         </Route>
       </Switch>

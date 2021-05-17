@@ -30,14 +30,14 @@ function NavBar() {
         <a href="/profEngagements">Professional Engagements</a>
         {/* <a href="/publications">Publications</a> */}
         <NavDropdown title="Publications" id="basic-nav-dropdown">
-          <NavDropdown.Item className="dropdown-item" href="/publications">Before 2000</NavDropdown.Item>
+          <NavDropdown.Item className="dropdown-item" href="/publications#before2000">Before 2000</NavDropdown.Item>
           <NavDropdown.Item className="dropdown-item" href="/publications">After 2000</NavDropdown.Item>
         </NavDropdown>
         <a href="/talks">Talks</a>
         {/* <a href="/bio">Biography</a> */}
         <NavDropdown title="About" id="basic-nav-dropdown">
           <NavDropdown.Item className="dropdown-item" href="/bio">Biography</NavDropdown.Item>
-          <NavDropdown.Item className="dropdown-item" href="/bio">Awards</NavDropdown.Item>
+          <NavDropdown.Item className="dropdown-item" href="/bio#awards">Awards</NavDropdown.Item>
         </NavDropdown>
       </div>
     </div>

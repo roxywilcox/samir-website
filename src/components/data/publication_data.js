@@ -70,28 +70,6 @@ import c1989 from "../../assets/focs89b.pdf";
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 export const publications = [
 
     {
@@ -546,7 +524,7 @@ export const publications = [
                 "t": "S. Bhattacharjee, W. C. Cheng, C.-F. Chou, L. Golubchik, S. Khuller. Bistro: a Platform for Building Scalable Wide-Area Upload Applications. ACM SIGMETRICS Performance Evaluation Review (also presented at the Workshop on Performance and Architecture of Web Servers (PAWS) in June 2000). Volume 28, Number 2, September 2000, pp. 29-35.",
                 "l": d2000,
             },
-        ]
+        ],
     },
     {
         "year": "1999",

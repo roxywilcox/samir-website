@@ -52,7 +52,7 @@ function Bio() {
         from IIT-Kanpur.
       </div>
       <br />
-      <div >
+      <div className="first-two-awards" id="awards">
           <div className="awards-title">Awards</div>
           <br />
           {awardDataWithLinks.map((award) => (
