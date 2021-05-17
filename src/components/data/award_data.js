@@ -1,6 +1,16 @@
+export const awardDataWithLinks = [
+  {
+    "title": "CRA-E Undergraduate Research Mentoring Award (2020)",
+    "link": "https://cra.org/lenore-cowen-and-samir-khuller-receive-the-2020-cra-e-undergraduate-research-faculty-mentoring-award/",
+
+  },
+  {
+    "title": "Inaugural ESA Test of Time Award for Work on Connected Dominating Sets (with S. Guha)",
+    "link": "http://esa-symposium.org/test-of-time-award.php",
+  },
+];
+
 export const awardData = [
-  "CRA-E Undergraduate Research Mentoring Award (2020)",
-  "Inaugural ESA Test of Time Award for work on Connected Dominating Sets (with S. Guha)",
   "Distinguished Scholar Teacher Award (UM) 2007-2008",
   "Google Research Award, Sep 2007",
   "PODS 2003 Best Newcomer Paper Award",

@@ -1,5 +1,5 @@
 import "./Bio.css";
-import { awardData } from "./data/award_data";
+import { awardData, awardDataWithLinks } from "./data/award_data";
 
 function Bio() {
   return (
@@ -52,8 +52,16 @@ function Bio() {
         from IIT-Kanpur.
       </div>
       <br />
-      <div className="awards-container">
+      <div >
           <div className="awards-title">Awards</div>
+          <br />
+          {awardDataWithLinks.map((award) => (
+            <div className="award-item-with-link">
+              <a href={award.link} className="award-item-link">{award.title}</a>
+            </div>
+          ))}
+      </div>
+      <div className="awards-container">
           <br />
           {awardData.map((award) => (
             <div className="award-item">{award}</div>

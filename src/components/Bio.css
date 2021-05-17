@@ -29,4 +29,23 @@
 .award-item {
   font-size: 20px;
   padding: 10px;
+  color: black;
 } 
+
+
+.award-item-link:hover {
+  color: #4e2a84;
+}
+
+.award-item-link {
+  color: black;
+  font-size: 20px;
+}
+
+.award-item-with-link {
+  padding: 10px;
+}
+
+.awards-container {
+  margin-top: -20px;
+}
