@@ -25,11 +25,20 @@ function NavBar() {
           <NavDropdown.Item className="dropdown-item" href="/alumni">Alumni</NavDropdown.Item>
           <NavDropdown.Item className="dropdown-item" href="/phd">PhD Students</NavDropdown.Item>
           <NavDropdown.Item className="dropdown-item" href="/undergrad">Undergraduates</NavDropdown.Item>
+          <NavDropdown.Item className="dropdown-item" href="/postdoc">Postdocs</NavDropdown.Item>
         </NavDropdown>
         <a href="/profEngagements">Professional Engagements</a>
-        <a href="/publications">Publications</a>
+        {/* <a href="/publications">Publications</a> */}
+        <NavDropdown title="Publications" id="basic-nav-dropdown">
+          <NavDropdown.Item className="dropdown-item" href="/publications">Before 2000</NavDropdown.Item>
+          <NavDropdown.Item className="dropdown-item" href="/publications">After 2000</NavDropdown.Item>
+        </NavDropdown>
         <a href="/talks">Talks</a>
-        <a href="/bio">Biography</a>
+        {/* <a href="/bio">Biography</a> */}
+        <NavDropdown title="About" id="basic-nav-dropdown">
+          <NavDropdown.Item className="dropdown-item" href="/bio">Biography</NavDropdown.Item>
+          <NavDropdown.Item className="dropdown-item" href="/bio">Awards</NavDropdown.Item>
+        </NavDropdown>
       </div>
     </div>
   );

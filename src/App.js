@@ -10,6 +10,7 @@ import Undergrad from "./components/Undergrad";
 import Publications from "./components/Publications";
 import Talks from "./components/Talks";
 import ProfEngagements from "./components/ProfEngagements";
+import Postdoc from "./components/Postdoc";
 
 
 function App() {
@@ -38,6 +39,9 @@ function App() {
         </Route>
         <Route path="/undergrad">
           <Undergrad />
+        </Route>
+        <Route path="/postdoc">
+          <Postdoc />
         </Route>
         <Route path="/profEngagements">
           <ProfEngagements />
