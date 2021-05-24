@@ -5,7 +5,7 @@ import Rajiv from "../../assets/rajiv.jpg";
 import Kanthi from "../../assets/kanthi.jpg";
 import Saeed from "../../assets/saeed.jpeg";
 import Koyel from "../../assets/koyel.png";
-import Jessica from "../../assets/uw.png";
+import Jessica from "../../assets/jess.png";
 import Barna from "../../assets/barna.png"; 
 import Azarakhsh from "../../assets/azar.jpg";
 import Srinivas from "../../assets/raaghav.jpeg";
