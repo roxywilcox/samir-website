@@ -48,4 +48,9 @@
 
 .awards-container {
   margin-top: -20px;
+  text-align: justify;
+}
+
+.first-two-awards {
+  text-align: justify;
 }
