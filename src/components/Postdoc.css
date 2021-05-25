@@ -1,0 +1,51 @@
+.postdoc-overall-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-direction: column;
+  }
+  
+  .postdoc-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  
+  .postdoc-item-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    min-width: 400px;
+    min-height: 400px;
+    padding: 20px;
+    margin: 40px;
+    flex-direction: column;
+    border: 1px lightgray solid;
+    text-align: center;
+    font-size: 10px;
+    color: black;
+  }
+  
+  .postdoc-profile-img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .postdoc-name {
+    font-size: 30px;
+  }
+  
+  .postdoc-title {
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: 40px;
+  }
+  
