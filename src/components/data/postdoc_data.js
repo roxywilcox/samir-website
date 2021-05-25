@@ -3,6 +3,15 @@ import Sami from "../../assets/sami.jpeg";
 import Vaggos from "../../assets/vaggos.png";
 import Hedyeh from "../../assets/hedyeh.jpeg";
 
+export const currentPostdocData = 
+[
+  {
+    "name": "Hedyeh Beyhaghi",
+    "img": Hedyeh,
+    "website": "https://home.ttic.edu/~hedyeh/",
+  },
+];
+
 
 export const postdocData =
 [
@@ -21,9 +30,5 @@ export const postdocData =
     "img": Vaggos,
     "website": "https://cs.stanford.edu/~vaggos/",
   },
-  {
-    "name": "Hedyeh Beyhaghi",
-    "img": Hedyeh,
-    "website": "https://home.ttic.edu/~hedyeh/",
-  },
+
 ];
