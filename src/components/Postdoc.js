@@ -1,10 +1,10 @@
 import "./Postdoc.css";
 import { postdocData } from "./data/postdoc_data";
 
-function Phd() {
+function Postdoc() {
   return (
     <div className="postdoc-overall-container">
-      <div className="postdoc-title">PhD Students</div>
+      <div className="postdoc-title">Postdocs</div>
       <div className="postdoc-container">
         {postdocData.map((postdoc) => (
           <div className="postdoc-item-container">
@@ -24,4 +24,4 @@ function Phd() {
   );
 }
 
-export default Phd;
+export default Postdoc;

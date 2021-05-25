@@ -1,4 +1,4 @@
-import Quanquan from "../../assets/quanquanliu.jpg";
+import Quanquan from "../../assets/quanquancliu.jpg";
 import Sami from "../../assets/sami.jpeg";
 import Vaggos from "../../assets/vaggos.png";
 import Hedyeh from "../../assets/hedyeh.jpeg";
