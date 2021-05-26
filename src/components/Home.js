@@ -18,7 +18,7 @@ function Home() {
       <div className="home-title">Current Work</div>
       <div className="blurb-container">
         <div className="blurb">
-          From 2003-2008, I was the Assoc. Chair for Graduate Studies in
+          From 2003-2008, I was the Associate Chair for Graduate Studies in
           Computer Science at the University of Maryland, and then from
           2012-2017, I was the inaugural Elizabeth Iribe Chair for CS at
           University of Maryland. In 2019, I joined Northwestern Computer
