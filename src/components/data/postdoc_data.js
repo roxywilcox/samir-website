@@ -3,18 +3,14 @@ import Sami from "../../assets/sami.jpeg";
 import Vaggos from "../../assets/vaggos.png";
 import Hedyeh from "../../assets/hedyeh.jpeg";
 
-export const currentPostdocData = 
+
+export const postdocData =
 [
   {
     "name": "Hedyeh Beyhaghi",
     "img": Hedyeh,
     "website": "https://home.ttic.edu/~hedyeh/",
   },
-];
-
-
-export const postdocData =
-[
   {
     "name": "Quanquan Liu",
     "img": Quanquan,
