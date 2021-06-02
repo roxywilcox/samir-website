@@ -1,5 +1,10 @@
 export const awardDataWithLinks = [
   {
+    "title": "European Association for Theoretical Computer Science Fellow (2021)",
+    "link": "https://eatcs.org/index.php/component/content/article/1-news/2883--eatcs-fellows-class-of-2021-named",
+
+  },
+  {
     "title": "CRA-E Undergraduate Research Mentoring Award (2020)",
     "link": "https://cra.org/lenore-cowen-and-samir-khuller-receive-the-2020-cra-e-undergraduate-research-faculty-mentoring-award/",
 
