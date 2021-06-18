@@ -3,7 +3,7 @@ import Ioana from "../../assets/ioana.jpg";
 import Manish from "../../assets/manish.jpg";
 import Rajiv from "../../assets/rajiv.jpg";
 import Kanthi from "../../assets/kanthi.jpg";
-import Saeed from "../../assets/saeed.jpeg";
+import Saeed from "../../assets/saeed.jpg";
 import Koyel from "../../assets/koyel.png";
 import Jessica from "../../assets/jess.png";
 import Barna from "../../assets/barna.png"; 
