@@ -1,7 +1,7 @@
 import Quanquan from "../../assets/quanquancliu.jpg";
-import Sami from "../../assets/sami.jpeg";
+import Sami from "../../assets/sami.jpg";
 import Vaggos from "../../assets/vaggos.png";
-import Hedyeh from "../../assets/hedyeh.jpeg";
+import Hedyeh from "../../assets/hedyeh.jpg";
 
 
 export const postdocData =

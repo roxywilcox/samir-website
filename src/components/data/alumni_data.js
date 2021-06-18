@@ -8,7 +8,7 @@ import Koyel from "../../assets/koyel.png";
 import Jessica from "../../assets/jess.png";
 import Barna from "../../assets/barna.png"; 
 import Azarakhsh from "../../assets/azar.jpg";
-import Srinivas from "../../assets/raaghav.jpeg";
+import Srinivas from "../../assets/raaghav.jpg";
 import Julian from "../../assets/julian.jpg";
 import Justin from "../../assets/justin.jpg";
 import Yoo from "../../assets/yoo.jpg";
